@@ -10568,13 +10568,6 @@ CAN H = CAN_P</text>
 <nets>
 <net name="CAN_N" class="2">
 <segment>
-<label x="429.26" y="414.02" size="1.778" layer="95" xref="yes"/>
-<wire x1="429.26" y1="414.02" x2="414.02" y2="414.02" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="414.02" x2="414.02" y2="411.48" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="411.48" x2="383.54" y2="411.48" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-2" pin="S"/>
-</segment>
-<segment>
 <wire x1="144.78" y1="256.54" x2="149.86" y2="256.54" width="0.1524" layer="91"/>
 <label x="149.86" y="256.54" size="1.27" layer="95" xref="yes"/>
 <pinref part="L2" gate="A" pin="3"/>
@@ -10584,6 +10577,11 @@ CAN H = CAN_P</text>
 <junction x="144.78" y="261.62"/>
 <pinref part="SJ1" gate="1" pin="1"/>
 <wire x1="144.78" y1="261.62" x2="170.18" y2="261.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-1" pin="S"/>
+<wire x1="383.54" y1="408.94" x2="393.7" y2="408.94" width="0.1524" layer="91"/>
+<label x="393.7" y="408.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+24V" class="1">
@@ -10700,11 +10698,6 @@ CAN H = CAN_P</text>
 </net>
 <net name="CAN_P" class="2">
 <segment>
-<label x="429.26" y="408.94" size="1.778" layer="95" xref="yes"/>
-<wire x1="429.26" y1="408.94" x2="383.54" y2="408.94" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-1" pin="S"/>
-</segment>
-<segment>
 <wire x1="144.78" y1="281.94" x2="149.86" y2="281.94" width="0.1524" layer="91"/>
 <label x="149.86" y="281.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="L2" gate="A" pin="4"/>
@@ -10713,6 +10706,11 @@ CAN H = CAN_P</text>
 <wire x1="144.78" y1="271.78" x2="144.78" y2="271.018" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <junction x="144.78" y="271.78"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-2" pin="S"/>
+<wire x1="383.54" y1="411.48" x2="393.7" y2="411.48" width="0.1524" layer="91"/>
+<label x="393.7" y="411.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="1">
