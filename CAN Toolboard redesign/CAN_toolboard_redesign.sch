@@ -9526,9 +9526,6 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="C45" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="C" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/2" technology="_" value="4.7uF">
 <attribute name="LCSCPN#" value="C162274"/>
 </part>
-<part name="IO1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
-<part name="IO2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
-<part name="IO3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
 <part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
@@ -9537,7 +9534,6 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="5V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="24V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="HE0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
-<part name="TH0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="A2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="A1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="B1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
@@ -9563,6 +9559,9 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="X8" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD">
 <attribute name="FAN3" value=""/>
 </part>
+<part name="TH0A" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
+<part name="USB1_P" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
+<part name="USB1_N" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10448,15 +10447,6 @@ CAN H = CAN_P</text>
 <attribute name="VALUE" x="533.654" y="76.454" size="1.4224" layer="96" rot="R270"/>
 <attribute name="LCSCPN#" x="533.4" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IO1" gate="G$1" x="386.08" y="313.436" smashed="yes" rot="R180">
-<attribute name="NAME" x="382.27" y="313.436" size="1.27" layer="95" font="vector" rot="R180" align="center-left"/>
-</instance>
-<instance part="IO2" gate="G$1" x="386.08" y="315.976" smashed="yes" rot="R180">
-<attribute name="NAME" x="382.27" y="315.976" size="1.27" layer="95" font="vector" rot="R180" align="center-left"/>
-</instance>
-<instance part="IO3" gate="G$1" x="396.24" y="326.136" smashed="yes" rot="R180">
-<attribute name="NAME" x="392.43" y="326.136" size="1.27" layer="95" font="vector" rot="R180" align="center-left"/>
-</instance>
 <instance part="SJ1" gate="1" x="170.18" y="266.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="167.64" y="264.16" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="175.26" y="264.16" size="1.778" layer="96" rot="R90"/>
@@ -10484,9 +10474,6 @@ CAN H = CAN_P</text>
 </instance>
 <instance part="HE0" gate="G$1" x="45.72" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.64" y="63.5" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
-<instance part="TH0" gate="G$1" x="447.04" y="238.76" smashed="yes">
-<attribute name="NAME" x="452.12" y="238.76" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="A2" gate="G$1" x="391.16" y="182.88" smashed="yes">
 <attribute name="NAME" x="396.24" y="182.88" size="1.778" layer="95" font="vector"/>
@@ -10561,6 +10548,15 @@ CAN H = CAN_P</text>
 <attribute name="NAME" x="513.842" y="114.3" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="511.683" y="110.998" size="1.778" layer="96" rot="R90"/>
 <attribute name="FAN3" x="513.08" y="111.76" size="1.778" layer="96" rot="R90" display="name"/>
+</instance>
+<instance part="TH0A" gate="G$1" x="373.38" y="228.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="368.3" y="228.6" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="USB1_P" gate="G$1" x="497.84" y="314.96" smashed="yes">
+<attribute name="NAME" x="502.92" y="314.96" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="USB1_N" gate="G$1" x="497.84" y="312.42" smashed="yes">
+<attribute name="NAME" x="502.92" y="312.42" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -11771,7 +11767,6 @@ CAN H = CAN_P</text>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="408.94" y1="314.96" x2="408.94" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="317.5" x2="386.08" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="IO2" gate="G$1" pin="1"/>
 <wire x1="386.08" y1="317.5" x2="386.08" y2="315.976" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11784,7 +11779,6 @@ CAN H = CAN_P</text>
 <segment>
 <label x="406.4" y="312.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="IO1" gate="G$1" pin="1"/>
 <wire x1="408.94" y1="312.42" x2="386.08" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="312.42" x2="386.08" y2="313.436" width="0.1524" layer="91"/>
 </segment>
@@ -11842,11 +11836,6 @@ CAN H = CAN_P</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="429.26" y1="320.04" x2="408.94" y2="320.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY34" gate="G$1" pin="+5V"/>
-<wire x1="408.94" y1="320.04" x2="408.94" y2="327.66" width="0.1524" layer="91"/>
-<junction x="408.94" y="320.04"/>
-<pinref part="IO3" gate="G$1" pin="1"/>
-<wire x1="408.94" y1="327.66" x2="396.24" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="327.66" x2="396.24" y2="326.136" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VCC"/>
@@ -11960,6 +11949,8 @@ CAN H = CAN_P</text>
 <pinref part="D2" gate="A" pin="I/O1"/>
 <wire x1="459.74" y1="297.18" x2="459.74" y2="314.96" width="0.1524" layer="91"/>
 <junction x="459.74" y="314.96"/>
+<wire x1="480.06" y1="314.96" x2="497.84" y2="314.96" width="0.1524" layer="91"/>
+<pinref part="USB1_P" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="USB1_N" class="2">
@@ -11982,6 +11973,9 @@ CAN H = CAN_P</text>
 <wire x1="459.74" y1="292.1" x2="464.82" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="292.1" x2="464.82" y2="312.42" width="0.1524" layer="91"/>
 <junction x="464.82" y="312.42"/>
+<wire x1="480.06" y1="312.42" x2="497.84" y2="312.42" width="0.1524" layer="91"/>
+<junction x="480.06" y="312.42"/>
+<pinref part="USB1_N" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VBUS" class="1">
@@ -12241,9 +12235,6 @@ CAN H = CAN_P</text>
 <wire x1="436.88" y1="223.52" x2="441.96" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="2"/>
 <junction x="436.88" y="223.52"/>
-<pinref part="TH0" gate="G$1" pin="1"/>
-<wire x1="447.04" y1="238.76" x2="436.88" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="436.88" y1="238.76" x2="436.88" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="GPIO26/ADC0"/>
@@ -12261,8 +12252,13 @@ CAN H = CAN_P</text>
 <pinref part="R35" gate="G$1" pin="1"/>
 <junction x="392.43" y="223.52"/>
 <junction x="398.78" y="223.52"/>
-<wire x1="373.38" y1="223.52" x2="392.43" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="223.52" x2="375.92" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="J3" gate="A" pin="4"/>
+<wire x1="375.92" y1="223.52" x2="392.43" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="223.52" x2="375.92" y2="228.6" width="0.1524" layer="91"/>
+<junction x="375.92" y="223.52"/>
+<wire x1="375.92" y1="228.6" x2="373.38" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="TH0A" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="TH0C" class="0">
