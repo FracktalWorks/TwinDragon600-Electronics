@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -312,13 +312,13 @@ A2</text>
 <wire x1="1.9601" y1="-2.6289" x2="2.6289" y2="-2.6289" width="0.1524" layer="21"/>
 <wire x1="2.6289" y1="1.9601" x2="2.6289" y2="2.6289" width="0.1524" layer="21"/>
 <wire x1="-1.9601" y1="2.6289" x2="-2.6289" y2="2.6289" width="0.1524" layer="21"/>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="-0.6905" y="-3.3099"/>
 <vertex x="-0.3095" y="-3.3099"/>
 <vertex x="-0.3095" y="-3.0559"/>
 <vertex x="-0.6905" y="-3.0559"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="3.0559" y="0.8095"/>
 <vertex x="3.3099" y="0.8095"/>
 <vertex x="3.3099" y="1.1905"/>
@@ -820,7 +820,7 @@ A2</text>
 <text x="0" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <rectangle x1="-3.65" y1="-0.35" x2="-3.05" y2="0.35" layer="51"/>
 <rectangle x1="3.05" y1="-0.35" x2="3.65" y2="0.35" layer="51"/>
-<polygon width="0.1016" layer="51">
+<polygon width="0.1016" layer="51" pour="solid">
 <vertex x="-2.55" y="-1.65"/>
 <vertex x="-2.15" y="-2.15"/>
 <vertex x="-2.15" y="2.15"/>
@@ -955,7 +955,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <hole x="-1.5" y="-4.32" drill="3"/>
 </package>
 <package name="FWLOGO_SMALL" library_version="22">
-<polygon width="0.0762" layer="21">
+<polygon width="0.0762" layer="21" pour="solid">
 <vertex x="0.3056" y="2.701940625"/>
 <vertex x="0.3556" y="2.6416"/>
 <vertex x="0.931359375" y="3.517746875"/>
@@ -1066,7 +1066,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="0.2526375" y="2.848378125"/>
 <vertex x="0.270665625" y="2.7721"/>
 </polygon>
-<polygon width="0.0762" layer="21">
+<polygon width="0.0762" layer="21" pour="solid">
 <vertex x="1.321503125" y="1.1821625"/>
 <vertex x="1.396565625" y="1.1666"/>
 <vertex x="1.45754375" y="1.16803125"/>
@@ -1110,13 +1110,13 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="1.191346875" y="1.261315625"/>
 <vertex x="1.251896875" y="1.214290625"/>
 </polygon>
-<polygon width="0.0762" layer="21">
+<polygon width="0.0762" layer="21" pour="solid">
 <vertex x="2.1336" y="2.0066"/>
 <vertex x="2.4638" y="2.0066"/>
 <vertex x="1.9812" y="2.8448"/>
 <vertex x="1.8034" y="2.590803125"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="3.556003125" y="2.032"/>
 <vertex x="3.860803125" y="2.032"/>
 <vertex x="3.876409375" y="2.037284375"/>
@@ -1132,7 +1132,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="3.0226" y="3.4798"/>
 <vertex x="2.844803125" y="3.2258"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="2.111040625" y="5.10114375"/>
 <vertex x="2.920996875" y="3.8862"/>
 <vertex x="3.2766" y="3.911603125"/>
@@ -1148,13 +1148,13 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="2.108215625" y="5.10538125"/>
 <vertex x="2.111040625" y="5.10255625"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="1.4732" y="3.8862"/>
 <vertex x="1.879596875" y="3.2766"/>
 <vertex x="2.235196875" y="3.302003125"/>
 <vertex x="1.828803125" y="3.8862"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="1.701796875" y="1.6002"/>
 <vertex x="4.267209375" y="1.6002"/>
 <vertex x="4.341190625" y="1.6102875"/>
@@ -1296,7 +1296,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="1.543646875" y="1.660103125"/>
 <vertex x="1.61965" y="1.622028125"/>
 </polygon>
-<polygon width="0.0762" layer="29">
+<polygon width="0.0762" layer="29" pour="solid">
 <vertex x="0.3056" y="2.701940625"/>
 <vertex x="0.3556" y="2.6416"/>
 <vertex x="0.931359375" y="3.517746875"/>
@@ -1407,7 +1407,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="0.2526375" y="2.848378125"/>
 <vertex x="0.270665625" y="2.7721"/>
 </polygon>
-<polygon width="0.0762" layer="29">
+<polygon width="0.0762" layer="29" pour="solid">
 <vertex x="1.321503125" y="1.1821625"/>
 <vertex x="1.396565625" y="1.1666"/>
 <vertex x="1.45754375" y="1.16803125"/>
@@ -1451,13 +1451,13 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="1.191346875" y="1.261315625"/>
 <vertex x="1.251896875" y="1.214290625"/>
 </polygon>
-<polygon width="0.0762" layer="29">
+<polygon width="0.0762" layer="29" pour="solid">
 <vertex x="2.1336" y="2.0066"/>
 <vertex x="2.4638" y="2.0066"/>
 <vertex x="1.9812" y="2.8448"/>
 <vertex x="1.8034" y="2.590803125"/>
 </polygon>
-<polygon width="0.0254" layer="29">
+<polygon width="0.0254" layer="29" pour="solid">
 <vertex x="3.556003125" y="2.032"/>
 <vertex x="3.860803125" y="2.032"/>
 <vertex x="3.876409375" y="2.037284375"/>
@@ -1605,7 +1605,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <wire x1="12.4714" y1="2.1082" x2="12.4714" y2="2.032" width="0.2" layer="29"/>
 <wire x1="12.4714" y1="2.032" x2="12.2682" y2="1.778" width="0.2" layer="29" curve="-97.62815"/>
 <wire x1="12.2682" y1="1.778" x2="11.6332" y2="1.778" width="0.2" layer="29"/>
-<polygon width="0.0508" layer="21">
+<polygon width="0.0508" layer="21" pour="solid">
 <vertex x="1.42875" y="3.9916125"/>
 <vertex x="1.42875" y="3.991609375"/>
 <vertex x="1.512053125" y="3.994640625"/>
@@ -1623,7 +1623,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="1.702071875" y="4.42003125"/>
 <vertex x="1.68020625" y="4.39546875"/>
 </polygon>
-<polygon width="0.0508" layer="21">
+<polygon width="0.0508" layer="21" pour="solid">
 <vertex x="2.68985625" y="3.495040625"/>
 <vertex x="2.684690625" y="3.487425"/>
 <vertex x="2.88925" y="3.488690625"/>
@@ -1638,7 +1638,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="2.6956625" y="3.503596875"/>
 <vertex x="2.69579375" y="3.50216875"/>
 </polygon>
-<polygon width="0.0508" layer="21">
+<polygon width="0.0508" layer="21" pour="solid">
 <vertex x="1.652265625" y="2.877815625"/>
 <vertex x="1.64973125" y="2.872740625"/>
 <vertex x="1.8161" y="2.88544375"/>
@@ -1655,7 +1655,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="2.183134375" y="3.177540625"/>
 <vertex x="1.84404375" y="3.1534125"/>
 </polygon>
-<polygon width="0.0508" layer="21">
+<polygon width="0.0508" layer="21" pour="solid">
 <vertex x="0.496653125" y="2.619575"/>
 <vertex x="0.491490625" y="2.61493125"/>
 <vertex x="0.650240625" y="2.639059375"/>
@@ -1685,7 +1685,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="0.50419375" y="2.626359375"/>
 <vertex x="0.5004125" y="2.6204125"/>
 </polygon>
-<polygon width="0.0762" layer="29">
+<polygon width="0.0762" layer="29" pour="solid">
 <vertex x="1.0287" y="3.429"/>
 <vertex x="0.4826" y="2.6035"/>
 <vertex x="0.660403125" y="2.628903125"/>
@@ -1701,7 +1701,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="0.927096875" y="2.7559"/>
 <vertex x="1.2065" y="3.1877"/>
 </polygon>
-<polygon width="0.0762" layer="29">
+<polygon width="0.0762" layer="29" pour="solid">
 <vertex x="1.8415" y="3.149596875"/>
 <vertex x="1.650996875" y="2.8702"/>
 <vertex x="1.816096875" y="2.8829"/>
@@ -1717,7 +1717,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="2.1082" y="3.0861"/>
 <vertex x="2.1844" y="3.175"/>
 </polygon>
-<polygon width="0.0762" layer="29">
+<polygon width="0.0762" layer="29" pour="solid">
 <vertex x="2.8829" y="3.784603125"/>
 <vertex x="2.6797" y="3.4925"/>
 <vertex x="2.8829" y="3.4925"/>
@@ -1729,7 +1729,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="3.1623" y="3.6957"/>
 <vertex x="3.2385" y="3.7973"/>
 </polygon>
-<polygon width="0.0762" layer="29">
+<polygon width="0.0762" layer="29" pour="solid">
 <vertex x="1.676396875" y="4.3815"/>
 <vertex x="1.4351" y="3.9878"/>
 <vertex x="1.8034" y="4.0005"/>
@@ -1978,31 +1978,31 @@ TEST_POINT
 <wire x1="3.022" y1="-3.6322" x2="3.6322" y2="-3.6322" width="0.1524" layer="21"/>
 <wire x1="3.6322" y1="3.022" x2="3.6322" y2="3.6322" width="0.1524" layer="21"/>
 <wire x1="-3.022" y1="3.6322" x2="-3.6322" y2="3.6322" width="0.1524" layer="21"/>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="-4.2132" y="-1.1905"/>
 <vertex x="-3.9592" y="-1.1905"/>
 <vertex x="-3.9592" y="-0.8095"/>
 <vertex x="-4.2132" y="-0.8095"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="-0.7905" y="-4.2132"/>
 <vertex x="-0.4095" y="-4.2132"/>
 <vertex x="-0.4095" y="-3.9592"/>
 <vertex x="-0.7905" y="-3.9592"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="3.9592" y="-2.3905"/>
 <vertex x="4.2132" y="-2.3905"/>
 <vertex x="4.2132" y="-2.0095"/>
 <vertex x="3.9592" y="-2.0095"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="3.9592" y="1.6095"/>
 <vertex x="4.2132" y="1.6095"/>
 <vertex x="4.2132" y="1.9905"/>
 <vertex x="3.9592" y="1.9905"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="21" pour="solid">
 <vertex x="-0.3905" y="3.9592"/>
 <vertex x="-0.0095" y="3.9592"/>
 <vertex x="-0.0095" y="4.2132"/>
@@ -2010,25 +2010,25 @@ TEST_POINT
 </polygon>
 <text x="-4.9165" y="2.165" size="1.27" layer="21" ratio="6">*</text>
 <text x="-1.7288" y="-0.635" size="1.27" layer="21" ratio="6">&gt;Value</text>
-<polygon width="0.0254" layer="31">
+<polygon width="0.0254" layer="31" pour="solid">
 <vertex x="-1.5002" y="0.1"/>
 <vertex x="-0.1" y="0.1"/>
 <vertex x="-0.1" y="1.5002"/>
 <vertex x="-1.5002" y="1.5002"/>
 </polygon>
-<polygon width="0.0254" layer="31">
+<polygon width="0.0254" layer="31" pour="solid">
 <vertex x="-1.5002" y="-1.5002"/>
 <vertex x="-0.1" y="-1.5002"/>
 <vertex x="-0.1" y="-0.1"/>
 <vertex x="-1.5002" y="-0.1"/>
 </polygon>
-<polygon width="0.0254" layer="31">
+<polygon width="0.0254" layer="31" pour="solid">
 <vertex x="0.1" y="0.1"/>
 <vertex x="1.5002" y="0.1"/>
 <vertex x="1.5002" y="1.5002"/>
 <vertex x="0.1" y="1.5002"/>
 </polygon>
-<polygon width="0.0254" layer="31">
+<polygon width="0.0254" layer="31" pour="solid">
 <vertex x="0.1" y="-1.5002"/>
 <vertex x="1.5002" y="-1.5002"/>
 <vertex x="1.5002" y="-0.1"/>
@@ -2803,15 +2803,6 @@ TEST_POINT
 </class>
 </classes>
 <designrules name="jlcpcb-2layers">
-<description language="en">&lt;b&gt;JLCPCB design rules (2 layers)&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;Board thickness: 1.6mm&lt;/li&gt;
-&lt;li&gt;Copper weight: 1oz (35um)&lt;/li&gt;
-&lt;li&gt;Note: annular ring aren't minimal&lt;/li&gt;
-&lt;/ul&gt;</description>
-<param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.6mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="5mil"/>
 <param name="mdWirePad" value="5mil"/>
 <param name="mdWireVia" value="5mil"/>
@@ -2821,13 +2812,24 @@ TEST_POINT
 <param name="mdSmdPad" value="5mil"/>
 <param name="mdSmdVia" value="5mil"/>
 <param name="mdSmdSmd" value="5mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
-<param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="0.2mm"/>
 <param name="mdDrill" value="6mil"/>
-<param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="5mil"/>
 <param name="msDrill" value="0.3mm"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<description language="en">&lt;b&gt;JLCPCB design rules (2 layers)&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Board thickness: 1.6mm&lt;/li&gt;
+&lt;li&gt;Copper weight: 1oz (35um)&lt;/li&gt;
+&lt;li&gt;Note: annular ring aren't minimal&lt;/li&gt;
+&lt;/ul&gt;</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.6mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdSmdStop" value="0mil"/>
 <param name="msMicroVia" value="0.3mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.4"/>
@@ -2868,10 +2870,7 @@ TEST_POINT
 <param name="srMaxRoundness" value="0mil"/>
 <param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
-<param name="dpMaxLengthDifference" value="10mm"/>
-<param name="dpGapFactor" value="2.5"/>
 <param name="checkAngle" value="0"/>
-<param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
@@ -5591,7 +5590,7 @@ TEST_POINT
 <wire x1="46.9" y1="26.29" x2="43.165371875" y2="26.29" width="0.3048" layer="1"/>
 <wire x1="43.165371875" y1="26.29" x2="42.41" y2="25.554465625" width="0.3048" layer="1"/>
 <wire x1="42.41" y1="25.554465625" x2="42.41" y2="25.0233" width="0.2" layer="1"/>
-<polygon width="0.1524" layer="1" thermals="no">
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="no">
 <vertex x="42.3562" y="25.4762"/>
 <vertex x="42.5084375" y="25.4762"/>
 <vertex x="42.985471875" y="25.953234375"/>
@@ -5619,7 +5618,7 @@ TEST_POINT
 <wire x1="46.9" y1="18.79" x2="43.4567" y2="18.79" width="0.3048" layer="1"/>
 <wire x1="43.4567" y1="18.79" x2="42.41" y2="19.8367" width="0.3048" layer="1"/>
 <wire x1="42.41" y1="19.8367" x2="42.41" y2="20.1767" width="0.2" layer="1"/>
-<polygon width="0.1524" layer="1" thermals="no">
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="no">
 <vertex x="42.3562" y="19.1415625"/>
 <vertex x="42.892059375" y="18.605703125"/>
 <vertex x="46.9838" y="18.616009375"/>
@@ -5647,7 +5646,7 @@ TEST_POINT
 <wire x1="46.9" y1="21.29" x2="46.09" y2="22.1" width="0.3048" layer="1"/>
 <wire x1="46.09" y1="22.1" x2="43.85" y2="22.1" width="0.3048" layer="1"/>
 <wire x1="43.85" y1="22.1" x2="43.3333" y2="22.1" width="0.2" layer="1"/>
-<polygon width="0.1524" layer="1" thermals="no">
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="no">
 <vertex x="45.895825" y="21.88551875"/>
 <vertex x="46.87196875" y="21.020434375"/>
 <vertex x="47.309178125" y="21.436825"/>
@@ -5672,7 +5671,7 @@ TEST_POINT
 <wire x1="46.9" y1="23.79" x2="46.21" y2="23.1" width="0.3048" layer="1"/>
 <wire x1="46.21" y1="23.1" x2="43.86" y2="23.1" width="0.3048" layer="1"/>
 <wire x1="43.3333" y1="23.1" x2="43.86" y2="23.1" width="0.2" layer="1"/>
-<polygon width="0.1524" layer="1" thermals="no">
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="no">
 <vertex x="43.9955625" y="22.8162"/>
 <vertex x="46.292346875" y="22.8162"/>
 <vertex x="47.309178125" y="23.753175"/>
@@ -5805,7 +5804,7 @@ TEST_POINT
 <wire x1="52.13" y1="13.83" x2="51.69" y2="13.83" width="0.3048" layer="1"/>
 <wire x1="51.39" y1="12.255" x2="51.39" y2="13.53" width="0.3048" layer="1"/>
 <wire x1="51.39" y1="13.53" x2="51.69" y2="13.83" width="0.3048" layer="1"/>
-<polygon width="0.2" layer="1">
+<polygon width="0.2" layer="1" spacing="1.27" pour="solid" thermals="yes">
 <vertex x="50.554775" y="11.293353125"/>
 <vertex x="48.38" y="9.118578125"/>
 <vertex x="48.38" y="7.16"/>
@@ -6049,7 +6048,7 @@ TEST_POINT
 <contactref element="R5" pad="2"/>
 <contactref element="U7" pad="22"/>
 <contactref element="U7" pad="28"/>
-<polygon width="0.254" layer="1" isolate="0.254">
+<polygon width="0.254" layer="1" spacing="1.27" pour="solid" isolate="0.254" thermals="yes">
 <vertex x="7.568059375" y="10.897665625"/>
 <vertex x="7.6147375" y="10.917"/>
 <vertex x="11.373" y="10.917"/>
@@ -6088,7 +6087,7 @@ TEST_POINT
 <vertex x="7.513" y="10.8152625"/>
 <vertex x="7.532334375" y="10.861940625"/>
 </polygon>
-<polygon width="0.254" layer="1" isolate="0.3048">
+<polygon width="0.254" layer="1" spacing="1.27" pour="solid" isolate="0.3048" thermals="yes">
 <vertex x="42.177" y="15.22739375"/>
 <vertex x="42.177" y="8.507"/>
 <vertex x="44.983" y="8.507"/>
@@ -6097,14 +6096,14 @@ TEST_POINT
 <vertex x="43.357" y="16.4347375"/>
 <vertex x="43.337665625" y="16.388059375"/>
 </polygon>
-<polygon width="0.254" layer="1" isolate="0.3048">
+<polygon width="0.254" layer="1" spacing="1.27" pour="solid" isolate="0.3048" thermals="yes">
 <vertex x="43.097" y="23.627"/>
 <vertex x="44.373" y="23.627"/>
 <vertex x="44.373" y="25.643"/>
 <vertex x="43.23660625" y="25.643"/>
 <vertex x="43.097" y="25.50339375"/>
 </polygon>
-<polygon width="0.254" layer="1" isolate="0.3048">
+<polygon width="0.254" layer="1" spacing="1.27" pour="solid" isolate="0.3048" thermals="yes">
 <vertex x="43.20660625" y="19.547"/>
 <vertex x="44.363" y="19.547"/>
 <vertex x="44.363" y="21.453"/>
@@ -6113,7 +6112,7 @@ TEST_POINT
 </polygon>
 <via x="44.05" y="24.68" extent="1-16" drill="0.35"/>
 <via x="44" y="20.5" extent="1-16" drill="0.35"/>
-<polygon width="0.2" layer="16">
+<polygon width="0.2" layer="16" spacing="1.27" pour="solid" thermals="yes">
 <vertex x="43.334775" y="18.466646875"/>
 <vertex x="43.35" y="18.429890625"/>
 <vertex x="43.35" y="16.55"/>
@@ -6180,7 +6179,6 @@ TEST_POINT
 <wire x1="13" y1="3.66" x2="12.66" y2="4" width="0.2" layer="1"/>
 <wire x1="12.66" y1="4" x2="12" y2="4" width="0.2" layer="1"/>
 <wire x1="12" y1="4" x2="11.75" y2="3.75" width="0.2" layer="1"/>
-<wire x1="46.31" y1="8.08" x2="42.25" y2="13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3.3V" class="1">
 <contactref element="C15" pad="1"/>
@@ -6603,13 +6601,13 @@ TEST_POINT
 <wire x1="43.84" y1="5.98" x2="43.84" y2="2.865" width="0.2" layer="16"/>
 <wire x1="3.6" y1="21.75" x2="2.5" y2="20.65" width="0.2" layer="1"/>
 <wire x1="2.5" y1="20.65" x2="2.5" y2="17.08" width="0.2" layer="1"/>
-<polygon width="0.2" layer="1" rank="2">
+<polygon width="0.2" layer="1" spacing="1.27" pour="solid" thermals="yes" rank="2">
 <vertex x="0.1" y="0.1"/>
 <vertex x="54.4" y="0.1"/>
 <vertex x="54.4" y="39.9"/>
 <vertex x="0.1" y="39.9"/>
 </polygon>
-<polygon width="0.2" layer="16" rank="2">
+<polygon width="0.2" layer="16" spacing="1.27" pour="solid" thermals="yes" rank="2">
 <vertex x="0.1" y="0.1"/>
 <vertex x="54.9" y="0.1"/>
 <vertex x="54.9" y="39.9"/>
