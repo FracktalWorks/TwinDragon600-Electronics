@@ -11304,7 +11304,6 @@ CAN H = CAN_P</text>
 <pinref part="J3" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="378.46" y1="-363.29" x2="386.08" y2="-363.29" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="-363.29" x2="386.08" y2="-363.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY87" gate="G$1" pin="+12V"/>
 <wire x1="386.08" y1="-363.22" x2="386.08" y2="-360.68" width="0.1524" layer="91"/>
@@ -11312,8 +11311,9 @@ CAN H = CAN_P</text>
 <wire x1="391.16" y1="-363.22" x2="391.16" y2="-365.76" width="0.1524" layer="91"/>
 <pinref part="C42" gate="G$1" pin="1"/>
 <junction x="386.08" y="-363.22"/>
-<wire x1="378.46" y1="-363.29" x2="378.46" y2="-342.9" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="-363.22" x2="378.46" y2="-363.22" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-2" pin="S"/>
+<wire x1="378.46" y1="-363.22" x2="378.46" y2="-342.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="436.88" y1="-363.29" x2="444.5" y2="-363.29" width="0.1524" layer="91"/>
@@ -12356,8 +12356,8 @@ CAN H = CAN_P</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="M2" gate="G$1" pin="D"/>
-<wire x1="375.92" y1="-365.76" x2="375.92" y2="-342.9" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-1" pin="S"/>
+<wire x1="375.92" y1="-365.76" x2="375.92" y2="-342.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
