@@ -9312,7 +9312,7 @@ grid 2.54 mm</description>
 </part>
 <part name="SUPPLY48" library="Power_Symbols" deviceset="+3.3V" device="" value="+3.3V"/>
 <part name="SUPPLY49" library="Power_Symbols" deviceset="+3.3V" device="" value="+3.3V"/>
-<part name="U3" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="SN65HVD1050DR" device="D8-L">
+<part name="U3" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="SN65HVD1050DR" device="D8-L" value="SN65HVD">
 <attribute name="LCSCPN#" value="C14019"/>
 </part>
 <part name="SUPPLY41" library="Power_Symbols" deviceset="+3.3V" device="" value="+3.3V"/>
@@ -9330,7 +9330,7 @@ grid 2.54 mm</description>
 <part name="R16" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/2" technology="_" value="120R">
 <attribute name="LCSCPN#" value="C25079"/>
 </part>
-<part name="L2" library="2023-04-02_14-21-16_Library" deviceset="ACM2012-201-2P-T002" device="ACM2012_TDK">
+<part name="L2" library="2023-04-02_14-21-16_Library" deviceset="ACM2012-201-2P-T002" device="ACM2012_TDK" value="ACM2012">
 <attribute name="LCSCPN#" value="C3029258"/>
 </part>
 <part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
@@ -9456,7 +9456,6 @@ grid 2.54 mm</description>
 <part name="SUPPLY34" library="Power_Symbols" deviceset="+5V" device="" value="+5V"/>
 <part name="IO1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
 <part name="IO2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
-<part name="IO3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
 <part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SUPPLY68" library="Power_Symbols" deviceset="+12V" device="" value="+24V"/>
 <part name="SUPPLY69" library="Power_Symbols" deviceset="GND-BAR" device="" value="GND"/>
@@ -10325,9 +10324,6 @@ CAN H = CAN_P</text>
 </instance>
 <instance part="IO2" gate="G$1" x="360.68" y="-131.064" smashed="yes" rot="R180">
 <attribute name="NAME" x="356.87" y="-131.064" size="1.27" layer="95" font="vector" rot="R180" align="center-left"/>
-</instance>
-<instance part="IO3" gate="G$1" x="370.84" y="-120.904" smashed="yes" rot="R180">
-<attribute name="NAME" x="367.03" y="-120.904" size="1.27" layer="95" font="vector" rot="R180" align="center-left"/>
 </instance>
 <instance part="SJ3" gate="1" x="439.42" y="-104.14" smashed="yes">
 <attribute name="NAME" x="436.88" y="-101.6" size="1.778" layer="95"/>
@@ -11230,11 +11226,6 @@ CAN H = CAN_P</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="403.86" y1="-127" x2="383.54" y2="-127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY34" gate="G$1" pin="+5V"/>
-<wire x1="383.54" y1="-127" x2="383.54" y2="-119.38" width="0.1524" layer="91"/>
-<junction x="383.54" y="-127"/>
-<pinref part="IO3" gate="G$1" pin="1"/>
-<wire x1="383.54" y1="-119.38" x2="370.84" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="-119.38" x2="370.84" y2="-120.904" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LDOLED" class="0">
