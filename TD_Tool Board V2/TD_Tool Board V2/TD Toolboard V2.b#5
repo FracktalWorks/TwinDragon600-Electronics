@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0393700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -184,8 +184,7 @@
 <wire x1="-5.08" y1="113.03" x2="-5.08" y2="80.01" width="0.1524" layer="48"/>
 <wire x1="-5.08" y1="80.01" x2="-49.53" y2="80.01" width="0.1524" layer="48"/>
 <wire x1="-49.53" y1="80.01" x2="-49.53" y2="113.03" width="0.1524" layer="48"/>
-<text x="-12.7" y="109.22" size="1.778" layer="48">MCU</text>
-<text x="-12.7" y="109.22" size="1.778" layer="48">MCU</text>
+<text x="-14.7" y="116.331" size="1.778" layer="48">MCU</text>
 <wire x1="-39.37" y1="77.47" x2="-39.37" y2="63.5" width="0.1524" layer="48"/>
 <wire x1="-39.37" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="48"/>
 <wire x1="-5.08" y1="63.5" x2="-5.08" y2="77.47" width="0.1524" layer="48"/>
@@ -1988,7 +1987,6 @@
 <wire x1="116.209" y1="-55.3542" x2="120.059" y2="-55.3542" width="0.001" layer="48"/>
 <wire x1="120.059" y1="-53.2742" x2="120.059" y2="-51.8442" width="0.001" layer="48"/>
 <wire x1="120.059" y1="-45.8142" x2="116.209" y2="-45.8142" width="0.001" layer="48"/>
-<wire x1="113.309" y1="-43.3642" x2="114.309" y2="-43.3642" width="0.001" layer="48"/>
 <wire x1="114.309" y1="-42.0892" x2="114.309" y2="-41.3642" width="0.001" layer="48"/>
 <wire x1="121.574" y1="-49.6242" x2="121.574" y2="-46.1242" width="0.001" layer="48"/>
 <wire x1="123.209" y1="-43.6242" x2="122.274" y2="-43.6242" width="0.001" layer="48"/>
@@ -1998,7 +1996,6 @@
 <wire x1="121.974" y1="-43.5242" x2="122.274" y2="-43.5242" width="0.001" layer="48"/>
 <wire x1="121.974" y1="-43.6242" x2="121.974" y2="-43.5242" width="0.001" layer="48"/>
 <wire x1="121.974" y1="-43.6242" x2="122.274" y2="-43.6242" width="0.001" layer="48"/>
-<wire x1="113.993" y1="-43.5242" x2="114.293" y2="-43.5242" width="0.001" layer="48"/>
 <wire x1="113.993" y1="-43.6242" x2="113.993" y2="-43.5242" width="0.001" layer="48"/>
 <wire x1="113.993" y1="-43.6242" x2="114.293" y2="-43.6242" width="0.001" layer="48"/>
 <wire x1="113.059" y1="-43.6242" x2="113.993" y2="-43.6242" width="0.001" layer="48"/>
@@ -2193,7 +2190,6 @@
 <wire x1="114.329" y1="-50.8398" x2="113.309" y2="-49.6242" width="0.001" layer="48"/>
 <wire x1="113.309" y1="-49.6242" x2="113.309" y2="-48.1042" width="0.001" layer="48"/>
 <wire x1="113.309" y1="-48.1042" x2="113.309" y2="-43.3642" width="0.001" layer="48"/>
-<wire x1="114.329" y1="-43.3642" x2="114.309" y2="-43.3642" width="0.001" layer="48"/>
 <wire x1="122.959" y1="-47.9242" x2="122.959" y2="-43.3642" width="0.001" layer="48"/>
 <wire x1="122.959" y1="-49.6242" x2="122.959" y2="-49.1242" width="0.001" layer="48"/>
 <wire x1="122.959" y1="-49.6242" x2="121.939" y2="-50.8398" width="0.001" layer="48"/>
@@ -5084,6 +5080,10 @@
 <circle x="99.024" y="-54.8185" radius="1.5" width="0.001" layer="48"/>
 <circle x="99.024" y="-54.8185" radius="1.5" width="0.001" layer="48"/>
 <wire x1="140.224" y1="-57.8185" x2="96.024" y2="-57.8185" width="0.001" layer="48"/>
+<wire x1="120.7824" y1="-25.6426" x2="135.7824" y2="-25.6426" width="0.2032" layer="48"/>
+<wire x1="135.7824" y1="-25.6426" x2="135.7824" y2="-40.6426" width="0.2032" layer="48"/>
+<wire x1="135.7824" y1="-40.6426" x2="120.7824" y2="-40.6426" width="0.2032" layer="48"/>
+<wire x1="120.7824" y1="-40.6426" x2="120.7824" y2="-25.6426" width="0.2032" layer="48"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
@@ -7046,110 +7046,110 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="3.3V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.04" package3d_urn="urn:adsk.eagle:package:38287/1" value="TEST-POINT3X4" x="-5.08" y="-59.69" smashed="yes" rot="R90"/>
-<element name="C14" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="-6.35" y="-46.99" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Capacitor" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSCPN#" value="C52923" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-7.6136" y="-46.99" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-5.0864" y="-46.99" size="1.27" layer="27" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="3.3V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="PAD.03X.04" package3d_urn="urn:adsk.eagle:package:38287/1" value="TEST-POINT3X4" x="92.267" y="-38.473" smashed="yes" rot="R90"/>
+<element name="C14" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="108.13" y="-31.081" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C52923" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="108.173" y="-31.6084" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="108.13" y="-32.3446" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="123.37" y="-47.591" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C15" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="-6.35" y="-52.07" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Capacitor" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSCPN#" value="C52923" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-7.6136" y="-52.07" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-5.0864" y="-52.07" size="1.27" layer="27" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C15" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="103.067" y="-31.252" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="Capacitor" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSCPN#" value="C52923" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="102.6216" y="-31.237" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="101.8034" y="-31.252" size="1.27" layer="27" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="86.557" y="-51.572" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C16" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="0" y="-48.26" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Capacitor" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-1.2636" y="-48.26" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="1.2636" y="-48.26" size="1.27" layer="27" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C16" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="108.148" y="-32.033" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="108.274" y="-32.6214" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="108.148" y="-33.2966" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="124.658" y="-42.193" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C17" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="0" y="-54.61" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Capacitor" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-1.2636" y="-54.61" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="1.2636" y="-54.61" size="1.27" layer="27" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C17" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="102.109" y="-31.253" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="Capacitor" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="101.2776" y="-31.231" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="100.8454" y="-31.253" size="1.27" layer="27" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="91.949" y="-54.113" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D3" library="LED" package="LEDC1608X35N_FLAT-G" package3d_urn="urn:adsk.eagle:package:24294786/1" value="LED_G" x="6.35" y="-48.26" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="LED" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COLOR" value="GREEN" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="CHIP LED FLAT" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSCPN#" value="C72043" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="4.9451" y="-48.387" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="CHIP" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="FLAT_TOP" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="7.7549" y="-48.387" size="1.27" layer="27" rot="R90" align="top-center"/>
+<element name="D3" library="LED" package="LEDC1608X35N_FLAT-G" package3d_urn="urn:adsk.eagle:package:24294786/1" value="LED_G" x="100.648" y="-33.847" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="LED" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COLOR" value="GREEN" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="CHIP LED FLAT" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSCPN#" value="C72043" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="101.2151" y="-33.959" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="CHIP" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="FLAT_TOP" x="104.458" y="-17.337" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="102.0529" y="-33.974" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="P2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:39060/1" value="3.3V" x="-6.35" y="-55.88" smashed="yes" rot="R90">
-<attribute name="LCSCPN#" value="C51118" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-8.509" y="-56.769" size="0.4064" layer="25" rot="R90"/>
-<attribute name="PROD_ID" value="VREG-12457" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-6.1595" y="-56.8325" size="0.4064" layer="27" rot="R90"/>
+<element name="P2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:39060/1" value="3.3V" x="105.376" y="-30.651" smashed="yes">
+<attribute name="LCSCPN#" value="C51118" x="129.506" y="-47.161" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="104.487" y="-28.492" size="0.4064" layer="25"/>
+<attribute name="PROD_ID" value="VREG-12457" x="129.506" y="-47.161" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="104.4235" y="-30.8415" size="0.4064" layer="27"/>
 </element>
-<element name="R15" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="49.9R" x="6.35" y="-55.88" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Resistor" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSCPN#" value="C25120" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5.079" y="-55.88" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RATING" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="10.16" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="7.621" y="-55.88" size="1.27" layer="27" rot="R90" align="top-center"/>
+<element name="R15" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="49.9R" x="100.59" y="-31.842" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="Resistor" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSCPN#" value="C25120" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="101.149" y="-31.773" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RATING" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="" x="104.4" y="-7.712" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="101.861" y="-31.842" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="P1" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="SOT-23-6" value="TPS54202_BUCKCONV" x="106.264" y="-42.674" smashed="yes">
 <attribute name="LCSCPN#" value="C191884" x="82.134" y="-12.194" size="1.778" layer="27" display="off"/>
@@ -7157,24 +7157,24 @@ design rules under a new name.</description>
 </element>
 <element name="L1" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="SMDRI74-680MT" value="ASPI-0630HI-100M-T157X7X4" x="105.942" y="-36.3" smashed="yes">
 <attribute name="LCSCPN#" value="C3000391" x="90.702" y="-23.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="101.472" y="-31.82" size="1.016" layer="25" align="center-left"/>
+<attribute name="NAME" x="101.904" y="-33.546" size="1.016" layer="25" align="center-left"/>
 <attribute name="VALUE" x="101.472" y="-40.68" size="1.016" layer="27" align="center-left"/>
 </element>
-<element name="C20" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="108.532" y="-40.748" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="108.613" y="-41.3874" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="108.532" y="-42.0116" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="88.212" y="-15.348" size="1.778" layer="27" display="off"/>
+<element name="C20" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="108.538" y="-40.857" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="108.619" y="-41.4964" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="108.538" y="-42.1206" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="88.218" y="-15.457" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C18" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="101.474" y="-42.266" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="Capacitor" x="82.424" y="-56.236" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7239,90 +7239,90 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="101.5031" y="-42.218" size="1.27" layer="27" rot="R90" align="top-center"/>
 <attribute name="VOLTAGE_RATING" value="" x="117.849" y="-65.078" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R5" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="511k" x="102.593" y="-44.414" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Resistor" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSCPN#" value="C3037035" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="103.193" y="-44.364" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RATING" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="119.103" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="103.864" y="-44.414" size="1.27" layer="27" rot="R90" align="top-center"/>
+<element name="R5" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="511k" x="102.484" y="-44.414" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="Resistor" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSCPN#" value="C3037035" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="103.084" y="-44.364" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RATING" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="" x="118.994" y="-73.624" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="103.755" y="-44.414" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="R6" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="105k" x="102.663" y="-40.84" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="Resistor" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LCSCPN#" value="C2933067" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="103.229" y="-40.811" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RATING" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="125.523" y="-59.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="103.934" y="-40.84" size="1.27" layer="27" rot="R90" align="top-center"/>
+<element name="R6" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="105k" x="102.644" y="-40.836" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="Resistor" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSCPN#" value="C2933067" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="103.21" y="-40.807" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RATING" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="" x="125.504" y="-59.886" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="103.915" y="-40.836" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="R7" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="49.9R" x="110.908" y="-44.578" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C25120" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="110.96" y="-45.274" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="81.698" y="-81.408" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="110.908" y="-45.849" size="1.27" layer="27" align="top-center"/>
+<element name="R7" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="49.9R" x="110.591" y="-44.567" smashed="yes">
+<attribute name="CATEGORY" value="Resistor" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C25120" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="110.643" y="-45.263" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="RATING" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="81.381" y="-81.397" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="110.591" y="-45.838" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="R8" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="100k" x="109.4" y="-43.399" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C25741" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="109.421" y="-43.991" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="85.27" y="-78.959" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="109.4" y="-44.67" size="1.27" layer="27" align="top-center"/>
+<element name="R8" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="100k" x="109.377" y="-43.295" smashed="yes">
+<attribute name="CATEGORY" value="Resistor" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C25741" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="109.398" y="-43.887" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="RATING" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="85.247" y="-78.855" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="109.377" y="-44.566" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="R9" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="13.3k" x="109.372" y="-42.044" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="Resistor" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LCSCPN#" value="C2974007" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="109.424" y="-41.567" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RATING" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="" x="123.342" y="-0.134" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="109.372" y="-40.773" size="1.27" layer="27" rot="R180" align="top-center"/>
+<element name="R9" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="13.3k" x="109.372" y="-42.24" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="Resistor" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSCPN#" value="C2974007" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="109.424" y="-41.763" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RATING" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="123.342" y="-0.33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="109.372" y="-40.969" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="C23" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="75pF" x="108.506" y="-44.566" smashed="yes" rot="R180">
 <attribute name="CATEGORY" value="Capacitor" x="135.176" y="-2.656" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7412,287 +7412,287 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="" x="91.44" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="68.581" y="92.71" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="U1" library="2023-03-26_17-59-48_Library" package="IC57_RP2040-L" value="RP2040IC57_RP2040-L" x="-38.1" y="106.68" smashed="yes">
-<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="-38.1" y="106.68" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C2040" x="-38.1" y="106.68" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RP2040" x="-38.1" y="106.68" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_NAME" value="Raspberry Pi" x="-38.1" y="106.68" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-41.3712" y="106.045" size="1.27" layer="27" ratio="6"/>
-<attribute name="VALUE" x="-41.0988" y="100.965" size="1.27" layer="21" ratio="6"/>
+<element name="U1" library="2023-03-26_17-59-48_Library" package="IC57_RP2040-L" value="RP2040IC57_RP2040-L" x="115.388" y="-29.0456" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="115.388" y="-29.0456" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C2040" x="115.388" y="-29.0456" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RP2040" x="115.388" y="-29.0456" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Raspberry Pi" x="115.388" y="-29.0456" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="112.1168" y="-29.6806" size="1.27" layer="27" ratio="6"/>
+<attribute name="VALUE" x="112.3892" y="-34.7606" size="1.27" layer="21" ratio="6"/>
 </element>
-<element name="R1" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="200R" x="-27.94" y="97.79" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C25087" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-27.94" y="99.061" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="97.79" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-27.94" y="96.519" size="1.27" layer="27" align="top-center"/>
+<element name="R1" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="200R" x="167.218" y="-40.139" smashed="yes">
+<attribute name="CATEGORY" value="Resistor" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C25087" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="167.218" y="-38.868" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="RATING" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="154.518" y="-40.139" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="167.218" y="-41.41" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="FD1" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="-27.94" y="86.36" smashed="yes"/>
-<element name="FD2" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="-25.4" y="86.36" smashed="yes"/>
-<element name="FD3" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="-22.86" y="86.36" smashed="yes"/>
-<element name="FD4" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="-20.32" y="86.36" smashed="yes"/>
-<element name="FD5" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="-17.78" y="86.36" smashed="yes"/>
-<element name="FD6" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="-15.24" y="86.36" smashed="yes"/>
-<element name="C10" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="-21.59" y="91.44" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-21.59" y="92.7036" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-21.59" y="90.1764" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="74.93" size="1.778" layer="27" display="off"/>
+<element name="FD1" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="167.218" y="-51.569" smashed="yes"/>
+<element name="FD2" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="169.758" y="-51.569" smashed="yes"/>
+<element name="FD3" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="172.298" y="-51.569" smashed="yes"/>
+<element name="FD4" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="174.838" y="-51.569" smashed="yes"/>
+<element name="FD5" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="177.378" y="-51.569" smashed="yes"/>
+<element name="FD6" library="CDC Library" library_urn="urn:adsk.wipprod:fs.file:vf.SXBn864FQp6MR9sO0qnWLQ" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="179.918" y="-51.569" smashed="yes"/>
+<element name="C10" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="117.8358" y="-19.4874" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="Capacitor" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="118.4102" y="-19.3634" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="119.0994" y="-19.4874" size="1.27" layer="27" rot="R90" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="134.3458" y="-38.5374" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C3" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="-36.83" y="85.09" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C52923" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-36.83" y="86.3536" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-36.83" y="83.8264" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="68.58" size="1.778" layer="27" display="off"/>
+<element name="C3" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="121.7878" y="-19.5024" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="Capacitor" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSCPN#" value="C52923" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="122.3872" y="-19.4734" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="123.0514" y="-19.5024" size="1.27" layer="27" rot="R90" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="138.2978" y="-23.3124" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C9" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="-27.94" y="91.44" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-27.94" y="92.7036" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-27.94" y="90.1764" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="62.23" size="1.778" layer="27" display="off"/>
+<element name="C9" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="124.317" y="-22.246" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="124.317" y="-22.8944" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="124.317" y="-23.5096" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="111.617" y="-51.456" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C8" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="-34.29" y="91.44" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-34.29" y="92.7036" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-34.29" y="90.1764" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="55.88" size="1.778" layer="27" display="off"/>
+<element name="C8" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="124.328" y="-23.222" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="124.338" y="-23.7514" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="124.328" y="-24.4856" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="117.978" y="-58.782" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C7" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="-40.64" y="91.44" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-40.64" y="92.7036" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-40.64" y="90.1764" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="49.53" size="1.778" layer="27" display="off"/>
+<element name="C7" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="124.423" y="-27.664" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="124.423" y="-28.2534" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="124.423" y="-28.9276" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="124.423" y="-69.574" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="-11.43" y="97.79" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-11.43" y="99.0536" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-11.43" y="96.5264" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="43.18" size="1.778" layer="27" display="off"/>
+<element name="C6" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="116.764" y="-36.6732" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="Capacitor" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="116.0546" y="-36.7582" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="115.5004" y="-36.6732" size="1.27" layer="27" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="62.154" y="-7.4632" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C5" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="-17.78" y="97.79" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.78" y="99.0536" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="96.5264" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="36.83" size="1.778" layer="27" display="off"/>
+<element name="C5" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="107.9714" y="-27.1022" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="Capacitor" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="107.8514" y="-26.4298" size="1.27" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="107.9714" y="-25.8386" size="1.27" layer="27" rot="R180" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="130.8314" y="33.8578" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C12" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="-8.89" y="91.44" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-8.89" y="92.7036" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-8.89" y="90.1764" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="30.48" size="1.778" layer="27" display="off"/>
+<element name="C12" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="116.8918" y="-19.4854" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="Capacitor" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="117.4292" y="-19.4854" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="118.1554" y="-19.4854" size="1.27" layer="27" rot="R90" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="177.8518" y="-51.2354" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C4" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="-31.75" y="85.09" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C52923" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-31.75" y="86.3536" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-31.75" y="83.8264" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="24.13" size="1.778" layer="27" display="off"/>
+<element name="C4" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="120.8278" y="-19.4934" smashed="yes" rot="R90">
+<attribute name="CATEGORY" value="Capacitor" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSCPN#" value="C52923" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="121.3762" y="-19.4724" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_STATUS" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SERIES" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="THERMALLOSS" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="122.0914" y="-19.4934" size="1.27" layer="27" rot="R90" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="181.7878" y="-28.3834" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C11" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="-15.24" y="91.44" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-15.24" y="92.7036" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-15.24" y="90.1764" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="17.78" size="1.778" layer="27" display="off"/>
+<element name="C11" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="117.718" y="-36.6752" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="Capacitor" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="117.0886" y="-36.7322" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="116.4544" y="-36.6752" size="1.27" layer="27" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="44.058" y="-11.2752" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C13" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="-41.91" y="85.09" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C52923" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-41.91" y="86.3536" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-41.91" y="83.8264" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-40.64" y="11.43" size="1.778" layer="27" display="off"/>
+<element name="C13" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="1uF" x="153.248" y="-52.839" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C52923" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="153.248" y="-51.5754" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="153.248" y="-54.1026" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="154.518" y="-126.499" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="1R" x="-22.86" y="97.79" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C25086" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-22.86" y="99.061" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-22.86" y="96.519" size="1.27" layer="27" align="top-center"/>
+<element name="R2" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="1R" x="172.298" y="-40.139" smashed="yes">
+<attribute name="CATEGORY" value="Resistor" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C25086" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="172.298" y="-38.868" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="RATING" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="154.518" y="-132.849" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.298" y="-41.41" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="D9" library="LED" package="LEDC1608X35N_FLAT-G" package3d_urn="urn:adsk.eagle:package:24294786/1" value="LED_G" x="-40.64" y="97.79" smashed="yes">
-<attribute name="CATEGORY" value="LED" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="COLOR" value="GREEN" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="CHIP LED FLAT" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C72043" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-40.767" y="99.1949" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="CHIP" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="FLAT_TOP" x="-39.37" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-40.767" y="96.3851" size="1.27" layer="27" align="top-center"/>
+<element name="D9" library="LED" package="LEDC1608X35N_FLAT-G" package3d_urn="urn:adsk.eagle:package:24294786/1" value="LED_G" x="154.518" y="-40.139" smashed="yes">
+<attribute name="CATEGORY" value="LED" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="GREEN" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CHIP LED FLAT" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C72043" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="154.391" y="-38.7341" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="CHIP" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="FLAT_TOP" x="155.788" y="-139.199" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="154.391" y="-41.5439" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="R28" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="49.9R" x="-34.29" y="97.79" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C25120" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-34.29" y="99.061" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-40.64" y="-7.62" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-34.29" y="96.519" size="1.27" layer="27" align="top-center"/>
+<element name="R28" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="49.9R" x="160.868" y="-40.139" smashed="yes">
+<attribute name="CATEGORY" value="Resistor" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C25120" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="160.868" y="-38.868" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="RATING" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="154.518" y="-145.549" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="160.868" y="-41.41" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="U2" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="SOIC_128JVSIQ_WIN-L" value="W25Q128JVSIQSOIC_128JVSIQ_WIN-L" x="-26.67" y="73.66" smashed="yes">
-<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="-26.67" y="73.66" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C97521" x="-26.67" y="73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="W25Q128JVSIQ" x="-26.67" y="73.66" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_NAME" value="Winbond" x="-26.67" y="73.66" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-29.9412" y="73.025" size="1.27" layer="27" ratio="6"/>
-<attribute name="VALUE" x="-38.5588" y="69.215" size="1.27" layer="21" ratio="6"/>
+<element name="U2" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="SOIC_128JVSIQ_WIN-L" value="W25Q128JVSIQSOIC_128JVSIQ_WIN-L" x="111.4298" y="-19.5834" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="111.4298" y="-19.5834" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C97521" x="111.4298" y="-19.5834" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="W25Q128JVSIQ" x="111.4298" y="-19.5834" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Winbond" x="111.4298" y="-19.5834" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="108.1586" y="-20.2184" size="1.27" layer="27" ratio="6"/>
+<attribute name="VALUE" x="99.541" y="-24.0284" size="1.27" layer="21" ratio="6"/>
 </element>
-<element name="C24" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="-26.67" y="67.31" smashed="yes">
-<attribute name="CATEGORY" value="Capacitor" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C307331" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-26.67" y="68.5736" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-26.67" y="66.0464" size="1.27" layer="27" align="top-center"/>
-<attribute name="VOLTAGE_RATING" value="" x="-26.67" y="67.31" size="1.778" layer="27" display="off"/>
+<element name="C24" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="CAPC1005X60" package3d_urn="urn:adsk.eagle:package:16290895/2" value="100nF" x="93.4466" y="-1.1176" smashed="yes">
+<attribute name="CATEGORY" value="Capacitor" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="LCSCPN#" value="C307331" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="93.4466" y="0.146" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="93.4466" y="-2.3812" size="1.27" layer="27" align="top-center"/>
+<attribute name="VOLTAGE_RATING" value="" x="93.4466" y="-1.1176" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R12" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="1K" x="-19.05" y="49.53" smashed="yes">
 <attribute name="CATEGORY" value="Resistor" x="-17.78" y="74.93" size="1.778" layer="27" display="off"/>
@@ -8336,39 +8336,39 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="107.3616" y="40.3194" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="JAE Electronics" x="110.49" y="66.04" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R10" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="27.4R" x="137.16" y="29.21" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C31439" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="137.16" y="30.481" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="107.95" y="57.15" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="137.16" y="27.939" size="1.27" layer="27" align="top-center"/>
+<element name="R10" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="27.4R" x="118.8428" y="-19.7344" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="Resistor" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSCPN#" value="C31439" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="118.2488" y="-19.7844" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RATING" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="146.7828" y="9.4756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="117.5718" y="-19.7344" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
-<element name="R11" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="27.4R" x="143.51" y="29.21" smashed="yes">
-<attribute name="CATEGORY" value="Resistor" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="LCSCPN#" value="C31439" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="143.51" y="30.481" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="OPERATING_TEMP" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="RATING" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="Fixed" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="" x="107.95" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="143.51" y="27.939" size="1.27" layer="27" align="top-center"/>
+<element name="R11" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" package="RESC1005X40" package3d_urn="urn:adsk.eagle:package:16378568/2" value="27.4R" x="119.8608" y="-19.7364" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="Resistor" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSCPN#" value="C31439" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="120.5238" y="-19.8794" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OPERATING_TEMP" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RATING" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUB-CATEGORY" value="Fixed" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="141.4508" y="15.8236" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="118.5898" y="-19.7364" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
 <element name="D2" library="2023-04-02_04-17-07_Library" package="SOT-666_STM-L" value="USBLC6-2P6SOT-666_STM-L" x="109.22" y="45.72" smashed="yes">
 <attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="82.55" y="50.8" size="1.778" layer="27" display="off"/>
@@ -8891,7 +8891,7 @@ design rules under a new name.</description>
 <contactref element="C44" pad="2"/>
 <contactref element="C45" pad="2"/>
 <contactref element="D8" pad="1"/>
-<wire x1="102.663" y1="-41.272815625" x2="102.62790625" y2="-41.307909375" width="0.254" layer="1"/>
+<wire x1="102.644" y1="-41.268815625" x2="102.59238125" y2="-41.32045" width="0.254" layer="1"/>
 <wire x1="102.62790625" y1="-41.307909375" x2="102.2149" y2="-41.720915625" width="0.254" layer="1"/>
 <wire x1="102.2149" y1="-41.720915625" x2="101.474" y2="-41.720915625" width="0.254" layer="1"/>
 <wire x1="101.026915625" y1="-41.720915625" x2="100.813" y2="-41.507" width="0.254" layer="1"/>
@@ -8902,9 +8902,9 @@ design rules under a new name.</description>
 <wire x1="104.567725" y1="-40.5430875" x2="103.844190625" y2="-39.819553125" width="0.254" layer="1"/>
 <wire x1="103.844190625" y1="-39.819553125" x2="102.266746875" y2="-39.819553125" width="0.254" layer="1"/>
 <wire x1="102.579840625" y1="-41.307909375" x2="102.62790625" y2="-41.307909375" width="0.254" layer="1"/>
-<wire x1="102.088196875" y1="-40.816265625" x2="102.579840625" y2="-41.307909375" width="0.254" layer="1"/>
-<wire x1="102.663" y1="-41.272815625" x2="103.330628125" y2="-41.272815625" width="0.254" layer="1"/>
-<wire x1="103.330628125" y1="-41.272815625" x2="103.4860125" y2="-41.4282" width="0.254" layer="1"/>
+<wire x1="102.088196875" y1="-40.816265625" x2="102.59238125" y2="-41.32045" width="0.254" layer="1"/>
+<wire x1="102.644" y1="-41.268815625" x2="103.326628125" y2="-41.268815625" width="0.254" layer="1"/>
+<wire x1="103.326628125" y1="-41.268815625" x2="103.4860125" y2="-41.4282" width="0.254" layer="1"/>
 <wire x1="104.759" y1="-41.569" x2="104.914" y2="-41.724" width="0.254" layer="1"/>
 <wire x1="104.759" y1="-41.569" x2="104.231075" y2="-41.569" width="0.254" layer="1"/>
 <wire x1="103.4860125" y1="-41.4282" x2="104.090275" y2="-41.4282" width="0.254" layer="1"/>
@@ -8968,9 +8968,102 @@ design rules under a new name.</description>
 <wire x1="111.77" y1="-41.6066" x2="111.77" y2="-41.6596" width="0.6096" layer="1"/>
 <wire x1="110.36215" y1="-39.10675" x2="110.36215" y2="-41.130665625" width="0.8128" layer="1"/>
 <wire x1="110.36215" y1="-41.130665625" x2="110.54015" y2="-41.308665625" width="0.8128" layer="1"/>
-<wire x1="110.49794375" y1="-41.350875" x2="110.67466875" y2="-41.5276" width="0.8128" layer="1"/>
+<wire x1="110.59594375" y1="-41.448875" x2="110.67466875" y2="-41.5276" width="0.8128" layer="1"/>
 <wire x1="110.67466875" y1="-41.5276" x2="111.691" y2="-41.5276" width="0.8128" layer="1"/>
-<wire x1="109.804815625" y1="-42.044" x2="110.49794375" y2="-41.350875" width="0.1524" layer="1"/>
+<wire x1="109.804815625" y1="-42.24" x2="110.59594375" y2="-41.448875" width="0.1524" layer="1"/>
+<via x="111.269" y="-36.615" extent="1-16" drill="0.35"/>
+<via x="111.747" y="-37.323" extent="1-16" drill="0.35"/>
+<via x="110.905" y="-37.311" extent="1-16" drill="0.35"/>
+<polygon width="0.0762" layer="1">
+<vertex x="110.778" y="-36.241"/>
+<vertex x="110.478" y="-36.541"/>
+<vertex x="110.478" y="-38.839"/>
+<vertex x="110.779" y="-39.14"/>
+<vertex x="112.47" y="-39.14"/>
+<vertex x="112.492" y="-39.118"/>
+<vertex x="112.492" y="-37.97"/>
+<vertex x="112.311" y="-37.789"/>
+<vertex x="112.311" y="-37.254"/>
+<vertex x="111.95" y="-36.893"/>
+<vertex x="111.95" y="-36.596"/>
+<vertex x="111.6" y="-36.246"/>
+</polygon>
+<wire x1="111.73" y1="-38.5246" x2="111.73" y2="-37.2264" width="1.27" layer="1"/>
+<wire x1="111.73" y1="-37.2264" x2="111.269" y2="-36.7654" width="1.27" layer="1"/>
+<wire x1="111.269" y1="-36.7654" x2="110.905" y2="-37.1294" width="1.27" layer="1"/>
+<wire x1="110.905" y1="-37.1294" x2="110.905" y2="-37.311" width="1.27" layer="1"/>
+<polygon width="0.0762" layer="16">
+<vertex x="111.297" y="-36.177"/>
+<vertex x="111.043" y="-36.177"/>
+<vertex x="110.817" y="-36.403"/>
+<vertex x="110.466" y="-36.754"/>
+<vertex x="110.466" y="-37.494"/>
+<vertex x="110.749" y="-37.777"/>
+<vertex x="110.99" y="-37.777"/>
+<vertex x="111.965" y="-37.777"/>
+<vertex x="111.979" y="-37.763"/>
+<vertex x="112.21" y="-37.532"/>
+<vertex x="112.21" y="-37.263"/>
+<vertex x="112.21" y="-36.951"/>
+<vertex x="111.768" y="-36.509"/>
+<vertex x="111.445" y="-36.186"/>
+<vertex x="111.287" y="-36.186"/>
+<vertex x="111.287" y="-36.183"/>
+</polygon>
+<wire x1="111.269" y1="-36.615" x2="107.144" y2="-36.615" width="1.27" layer="16"/>
+<wire x1="107.144" y1="-36.615" x2="105.37" y2="-34.841" width="1.27" layer="16"/>
+<wire x1="105.37" y1="-34.841" x2="105.37" y2="-33.117" width="1.27" layer="16"/>
+<via x="105.37" y="-33.117" extent="1-16" drill="0.35"/>
+<wire x1="101.94" y1="-31.967084375" x2="102.109" y2="-31.798084375" width="0.254" layer="1"/>
+<wire x1="105.37" y1="-33.117" x2="105.376" y2="-33.111" width="0.6096" layer="1"/>
+<wire x1="105.376" y1="-33.111" x2="105.376" y2="-31.9511" width="0.6096" layer="1"/>
+<wire x1="103.067" y1="-31.797084375" x2="103.066" y2="-31.798084375" width="0.254" layer="1"/>
+<wire x1="103.066" y1="-31.798084375" x2="102.109" y2="-31.798084375" width="0.254" layer="1"/>
+<wire x1="100.648" y1="-34.597" x2="101.94" y2="-33.305" width="0.254" layer="1"/>
+<wire x1="101.94" y1="-33.305" x2="101.94" y2="-31.967084375" width="0.254" layer="1"/>
+<wire x1="108.675084375" y1="-31.081" x2="108.693084375" y2="-31.099" width="0.254" layer="1"/>
+<wire x1="108.693084375" y1="-31.099" x2="108.693084375" y2="-32.033" width="0.254" layer="1"/>
+<wire x1="108.675084375" y1="-31.081" x2="108.675084375" y2="-30.893084375" width="0.254" layer="1"/>
+<wire x1="108.675084375" y1="-30.893084375" x2="108.087" y2="-30.305" width="0.254" layer="1"/>
+<wire x1="108.087" y1="-30.305" x2="105.92" y2="-30.305" width="0.254" layer="1"/>
+<wire x1="105.92" y1="-30.305" x2="105.376" y2="-30.849" width="0.254" layer="1"/>
+<wire x1="103.067" y1="-31.797084375" x2="103.7" y2="-31.164084375" width="0.254" layer="1"/>
+<wire x1="103.7" y1="-31.164084375" x2="103.7" y2="-30.951" width="0.254" layer="1"/>
+<wire x1="103.7" y1="-30.951" x2="104.108" y2="-30.543" width="0.254" layer="1"/>
+<wire x1="105.07" y1="-30.543" x2="105.376" y2="-30.849" width="0.254" layer="1"/>
+<wire x1="104.108" y1="-30.543" x2="105.07" y2="-30.543" width="0.254" layer="1"/>
+<polygon width="0.0762" layer="1">
+<vertex x="104.84" y="-28.875"/>
+<vertex x="104.84" y="-29.988"/>
+<vertex x="104.702" y="-30.126"/>
+<vertex x="104.656" y="-30.172"/>
+<vertex x="104.367" y="-30.172"/>
+<vertex x="104.367" y="-30.933"/>
+<vertex x="104.465" y="-31.031"/>
+<vertex x="104.517" y="-31.083"/>
+<vertex x="104.823" y="-31.083"/>
+<vertex x="104.99" y="-31.25"/>
+<vertex x="104.99" y="-31.85"/>
+<vertex x="105.802" y="-31.85"/>
+<vertex x="105.808" y="-31.844"/>
+<vertex x="105.808" y="-31.324"/>
+<vertex x="105.797" y="-31.313"/>
+<vertex x="105.797" y="-31.296"/>
+<vertex x="105.97" y="-31.123"/>
+<vertex x="106.016" y="-31.077"/>
+<vertex x="106.604" y="-31.077"/>
+<vertex x="106.69" y="-30.991"/>
+<vertex x="106.69" y="-30.962"/>
+<vertex x="106.69" y="-30.137"/>
+<vertex x="106.01" y="-30.137"/>
+<vertex x="105.981" y="-30.166"/>
+<vertex x="105.855" y="-30.04"/>
+<vertex x="105.855" y="-29.941"/>
+<vertex x="105.855" y="-28.858"/>
+<vertex x="104.852" y="-28.858"/>
+<vertex x="104.841" y="-28.869"/>
+</polygon>
+<wire x1="105.376" y1="-31.9511" x2="105.376" y2="-30.849" width="0.3048" layer="1"/>
 <wire x1="190.82" y1="44.62" x2="198.44" y2="44.62" width="0" layer="19" extent="1-1"/>
 <wire x1="201.4346" y1="36.83" x2="198.44" y2="44.62" width="0" layer="19" extent="1-1"/>
 <wire x1="193.99" y1="35.73" x2="201.4346" y2="36.83" width="0" layer="19" extent="1-1"/>
@@ -9013,44 +9106,39 @@ design rules under a new name.</description>
 <wire x1="106.17" y1="39.325" x2="107.39" y2="39.2" width="0" layer="19" extent="1-1"/>
 <wire x1="113.59" y1="39.2" x2="114.81" y2="39.325" width="0" layer="19" extent="1-1"/>
 <wire x1="139.7" y1="99.06" x2="118.9854" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="93.991684375" y1="-1.1176" x2="106.17" y2="34.35" width="0" layer="19" extent="1-1"/>
+<wire x1="107.8349" y1="-21.4884" x2="93.991684375" y2="-1.1176" width="0" layer="19" extent="1-1"/>
+<wire x1="107.426315625" y1="-27.1022" x2="107.8349" y2="-21.4884" width="0" layer="19" extent="1-1"/>
+<wire x1="108.675084375" y1="-31.081" x2="107.426315625" y2="-27.1022" width="0" layer="19" extent="1-1"/>
+<wire x1="110.3444" y1="-38.5246" x2="110.539215625" y2="-38.5246" width="0" layer="19" extent="1-1"/>
+<wire x1="111.352" y1="-38.995" x2="111.73" y2="-38.5246" width="0" layer="19" extent="1-1"/>
+<wire x1="109.804815625" y1="-42.24" x2="110.54015" y2="-41.308665625" width="0" layer="19" extent="1-1"/>
+<wire x1="116.764" y1="-37.218284375" x2="111.747" y2="-37.323" width="0" layer="19" extent="1-1"/>
+<wire x1="117.718" y1="-37.220284375" x2="116.764" y2="-37.218284375" width="0" layer="19" extent="1-1"/>
+<wire x1="114.388" y1="-32.3968" x2="111.269" y2="-36.615" width="0" layer="19" extent="1-1"/>
+<wire x1="115.388" y1="-29.0456" x2="114.388" y2="-32.3968" width="0" layer="19" extent="1-1"/>
+<wire x1="116.8918" y1="-18.940315625" x2="107.8349" y2="-21.4884" width="0" layer="19" extent="1-1"/>
+<wire x1="117.8358" y1="-18.942315625" x2="116.8918" y2="-18.940315625" width="0" layer="19" extent="1-1"/>
+<wire x1="120.8278" y1="-18.948315625" x2="117.8358" y2="-18.942315625" width="0" layer="19" extent="1-1"/>
+<wire x1="121.7878" y1="-18.957315625" x2="120.8278" y2="-18.948315625" width="0" layer="19" extent="1-1"/>
+<wire x1="124.862084375" y1="-22.246" x2="121.7878" y2="-18.957315625" width="0" layer="19" extent="1-1"/>
+<wire x1="124.873084375" y1="-23.222" x2="124.862084375" y2="-22.246" width="0" layer="19" extent="1-1"/>
+<wire x1="124.968084375" y1="-27.664" x2="124.873084375" y2="-23.222" width="0" layer="19" extent="1-1"/>
+<wire x1="153.768" y1="-40.139" x2="124.968084375" y2="-27.664" width="0" layer="19" extent="1-1"/>
+<wire x1="153.793084375" y1="-52.839" x2="153.768" y2="-40.139" width="0" layer="19" extent="1-1"/>
 <wire x1="69.85" y1="140.16" x2="92.7175" y2="101.92" width="0" layer="19" extent="1-1"/>
 <wire x1="42.23" y1="132.25" x2="69.85" y2="140.16" width="0" layer="19" extent="1-1"/>
 <wire x1="34.835084375" y1="125.73" x2="42.23" y2="132.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.884915625" y1="97.79" x2="34.835084375" y2="125.73" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.234915625" y1="97.79" x2="-10.884915625" y2="97.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.344915625" y1="91.44" x2="-10.884915625" y2="97.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.694915625" y1="91.44" x2="-8.344915625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.044915625" y1="91.44" x2="-14.694915625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.394915625" y1="91.44" x2="-21.044915625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.744915625" y1="91.44" x2="-27.394915625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.094915625" y1="91.44" x2="-33.744915625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.364915625" y1="85.09" x2="-40.094915625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.284915625" y1="85.09" x2="-41.364915625" y2="85.09" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.204915625" y1="85.09" x2="-36.284915625" y2="85.09" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.39" y1="97.79" x2="-40.094915625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-39.1" y1="103.3288" x2="-41.39" y2="97.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.1" y1="106.68" x2="-39.1" y2="103.3288" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.2649" y1="71.755" x2="-31.204915625" y2="85.09" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.124915625" y1="67.31" x2="-30.2649" y2="71.755" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.53" y1="57.15" x2="-26.124915625" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.53" y1="57.15" x2="34.835084375" y2="125.73" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.24965625" y1="49.53" x2="-19.53" y2="57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.2575" y1="39.3" x2="-13.24965625" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.2575" y1="37.7" x2="-11.2575" y2="39.3" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.2575" y1="36.9" x2="-11.2575" y2="37.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.77" y1="57.15" x2="-26.124915625" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.77" y1="57.15" x2="-19.53" y2="57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.1286" y1="24.765" x2="-11.2575" y2="36.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.3714" y1="23.495" x2="-29.1286" y2="24.765" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.854915625" y1="12.7" x2="-29.1286" y2="24.765" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.504915625" y1="12.7" x2="-24.854915625" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.35" y1="-46.444915625" x2="-18.504915625" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.35" y1="-51.524915625" x2="-6.35" y2="-46.444915625" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.0499" y1="-55.88" x2="-6.35" y2="-51.524915625" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-54.064915625" x2="-5.0499" y2="-55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-47.714915625" x2="0" y2="-54.064915625" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="-49.01" x2="0" y2="-47.714915625" width="0" layer="19" extent="1-1"/>
-<wire x1="111.73" y1="-38.5246" x2="114.81" y2="34.35" width="0" layer="19" extent="1-1"/>
-<wire x1="110.3444" y1="-38.5246" x2="110.539215625" y2="-38.5246" width="0" layer="19" extent="1-1"/>
-<wire x1="111.352" y1="-38.995" x2="111.73" y2="-38.5246" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3.3V" class="1">
 <contactref element="P2" pad="5"/>
@@ -9096,48 +9184,59 @@ design rules under a new name.</description>
 <contactref element="D6" pad="2"/>
 <contactref element="D7" pad="2"/>
 <contactref element="D8" pad="2"/>
+<wire x1="94.86474375" y1="-37.7412" x2="99.203" y2="-37.7412" width="0.1524" layer="1"/>
+<wire x1="94.86474375" y1="-37.7412" x2="94.14994375" y2="-38.456" width="0.1524" layer="1"/>
+<wire x1="92.284" y1="-38.456" x2="92.267" y2="-38.473" width="0.1524" layer="1"/>
+<wire x1="94.14994375" y1="-38.456" x2="92.284" y2="-38.456" width="0.1524" layer="1"/>
+<wire x1="104.426" y1="-29.3509" x2="103.8891" y2="-29.3509" width="0.254" layer="1"/>
+<wire x1="103.067" y1="-30.173" x2="103.067" y2="-30.70234375" width="0.254" layer="1"/>
+<wire x1="103.8891" y1="-29.3509" x2="103.067" y2="-30.173" width="0.254" layer="1"/>
+<wire x1="103.067" y1="-30.70234375" x2="102.11" y2="-30.70234375" width="0.254" layer="1"/>
+<wire x1="102.109" y1="-30.70334375" x2="102.11" y2="-30.70234375" width="0.254" layer="1"/>
+<wire x1="102.109" y1="-30.70334375" x2="101.295840625" y2="-30.70334375" width="0.254" layer="1"/>
+<wire x1="101.295840625" y1="-30.70334375" x2="100.59" y2="-31.409184375" width="0.254" layer="1"/>
+<wire x1="100.252815625" y1="-31.409184375" x2="100.59" y2="-31.409184375" width="0.1524" layer="1"/>
+<wire x1="99.203" y1="-37.7412" x2="99.533" y2="-37.4112" width="0.1524" layer="1"/>
+<wire x1="99.533" y1="-37.4112" x2="99.533" y2="-32.129" width="0.1524" layer="1"/>
+<wire x1="99.533" y1="-32.129" x2="100.252815625" y2="-31.409184375" width="0.1524" layer="1"/>
 <wire x1="135.457184375" y1="63.5" x2="150.697184375" y2="92.71" width="0" layer="19" extent="1-1"/>
 <wire x1="135.34034375" y1="54.61" x2="135.457184375" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="110.3733" y1="70.89" x2="135.457184375" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="171.13" y1="35.73" x2="135.34034375" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="192.72" y1="44.62" x2="171.13" y2="35.73" width="0" layer="19" extent="1-1"/>
 <wire x1="200.34" y1="44.62" x2="192.72" y2="44.62" width="0" layer="19" extent="1-1"/>
+<wire x1="92.89694375" y1="-1.1176" x2="135.34034375" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="115.0247" y1="-17.6784" x2="92.89694375" y2="-1.1176" width="0" layer="19" extent="1-1"/>
+<wire x1="117.8358" y1="-20.03705625" x2="115.0247" y2="-17.6784" width="0" layer="19" extent="1-1"/>
+<wire x1="121.7878" y1="-20.05205625" x2="117.8358" y2="-20.03705625" width="0" layer="19" extent="1-1"/>
+<wire x1="123.76734375" y1="-22.246" x2="121.7878" y2="-20.05205625" width="0" layer="19" extent="1-1"/>
+<wire x1="123.77834375" y1="-23.222" x2="123.76734375" y2="-22.246" width="0" layer="19" extent="1-1"/>
+<wire x1="123.87334375" y1="-27.664" x2="123.77834375" y2="-23.222" width="0" layer="19" extent="1-1"/>
+<wire x1="118.7392" y1="-26.4456" x2="123.87334375" y2="-27.664" width="0" layer="19" extent="1-1"/>
+<wire x1="117.588" y1="-25.6944" x2="118.7392" y2="-26.4456" width="0" layer="19" extent="1-1"/>
+<wire x1="115.988" y1="-25.6944" x2="117.588" y2="-25.6944" width="0" layer="19" extent="1-1"/>
+<wire x1="115.588" y1="-25.6944" x2="115.988" y2="-25.6944" width="0" layer="19" extent="1-1"/>
+<wire x1="118.7392" y1="-30.0456" x2="118.7392" y2="-26.4456" width="0" layer="19" extent="1-1"/>
+<wire x1="112.0368" y1="-26.4456" x2="115.588" y2="-25.6944" width="0" layer="19" extent="1-1"/>
+<wire x1="108.52105625" y1="-27.1022" x2="112.0368" y2="-26.4456" width="0" layer="19" extent="1-1"/>
+<wire x1="112.0368" y1="-30.0456" x2="112.0368" y2="-26.4456" width="0" layer="19" extent="1-1"/>
+<wire x1="115.588" y1="-32.3968" x2="118.7392" y2="-30.0456" width="0" layer="19" extent="1-1"/>
+<wire x1="116.764" y1="-36.12354375" x2="115.588" y2="-32.3968" width="0" layer="19" extent="1-1"/>
+<wire x1="104.426" y1="-29.3509" x2="108.52105625" y2="-27.1022" width="0" layer="19" extent="1-1"/>
+<wire x1="167.650815625" y1="-40.139" x2="123.87334375" y2="-27.664" width="0" layer="19" extent="1-1"/>
 <wire x1="39.82" y1="127" x2="110.3733" y2="70.89" width="0" layer="19" extent="1-1"/>
 <wire x1="44.13" y1="132.25" x2="39.82" y2="127" width="0" layer="19" extent="1-1"/>
 <wire x1="28.372815625" y1="125.73" x2="39.82" y2="127" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.97965625" y1="97.79" x2="28.372815625" y2="125.73" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.32965625" y1="97.79" x2="-11.97965625" y2="97.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.13965625" y1="91.44" x2="-18.32965625" y2="97.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.48965625" y1="91.44" x2="-22.13965625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.83965625" y1="91.44" x2="-28.48965625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.18965625" y1="91.44" x2="-34.83965625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.507184375" y1="97.79" x2="-28.48965625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.37965625" y1="85.09" x2="-34.83965625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.7488" y1="105.68" x2="-27.507184375" y2="97.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.7488" y1="109.28" x2="-34.7488" y2="105.68" width="0" layer="19" extent="1-1"/>
-<wire x1="-35.9" y1="110.0312" x2="-34.7488" y2="109.28" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.5" y1="110.0312" x2="-35.9" y2="110.0312" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.9" y1="110.0312" x2="-37.5" y2="110.0312" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.4512" y1="109.28" x2="-37.9" y2="110.0312" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.4512" y1="105.68" x2="-41.4512" y2="109.28" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.9" y1="103.3288" x2="-34.7488" y2="105.68" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.0751" y1="75.565" x2="-22.13965625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.21965625" y1="67.31" x2="-23.0751" y2="75.565" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.507184375" y1="49.53" x2="-27.21965625" y2="67.31" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.937184375" y1="49.53" x2="-27.507184375" y2="49.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.967184375" y1="38.1" x2="-27.507184375" y2="49.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.887184375" y1="38.1" x2="-24.967184375" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.2575" y1="40.1" x2="28.372815625" y2="125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.2575" y1="36.1" x2="-11.2575" y2="40.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.887184375" y1="38.1" x2="-11.2575" y2="40.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.967184375" y1="38.1" x2="-19.887184375" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.047184375" y1="38.1" x2="-24.967184375" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.047184375" y1="31.75" x2="-30.047184375" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.2575" y1="40.1" x2="-19.887184375" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.2575" y1="36.1" x2="-11.2575" y2="40.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.1286" y1="20.955" x2="-30.047184375" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.94965625" y1="12.7" x2="-29.1286" y2="20.955" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.35" y1="-52.61965625" x2="-25.94965625" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.6501" y1="-56.83" x2="-6.35" y2="-52.61965625" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.08" y1="-59.69" x2="-7.6501" y2="-56.83" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-55.15965625" x2="-5.08" y2="-59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="-55.447184375" x2="0" y2="-55.15965625" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.507184375" y1="49.53" x2="-24.967184375" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.937184375" y1="49.53" x2="-27.507184375" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V" class="1">
 <contactref element="P2" pad="1"/>
@@ -9155,17 +9254,10 @@ design rules under a new name.</description>
 <contactref element="C39" pad="1"/>
 <contactref element="D1" pad="1"/>
 <contactref element="IO3" pad="P$1"/>
-<wire x1="111.340815625" y1="-44.578" x2="111.77" y2="-44.148815625" width="0.6096" layer="1"/>
-<wire x1="111.77" y1="-44.148815625" x2="111.77" y2="-43.4104" width="0.6096" layer="1"/>
-<wire x1="111.77" y1="-43.4104" x2="113.0786" y2="-43.4104" width="1.27" layer="1"/>
-<wire x1="113.0786" y1="-43.4104" x2="113.635" y2="-42.854" width="1.27" layer="1"/>
-<wire x1="113.635" y1="-42.854" x2="113.635" y2="-40.289" width="1.27" layer="1"/>
-<wire x1="113.635" y1="-40.289" x2="113.635" y2="-37.433" width="1.27" layer="1"/>
-<wire x1="113.635" y1="-37.433" x2="112.498" y2="-36.296" width="1.27" layer="1"/>
-<wire x1="112.498" y1="-36.296" x2="109.146" y2="-36.296" width="1.27" layer="1"/>
+<wire x1="111.023815625" y1="-44.567" x2="111.77" y2="-43.820815625" width="0.6096" layer="1"/>
+<wire x1="111.77" y1="-43.820815625" x2="111.77" y2="-43.4104" width="0.6096" layer="1"/>
+<wire x1="113.0786" y1="-43.4104" x2="111.77" y2="-43.4104" width="1.27" layer="1"/>
 <wire x1="109.146" y1="-36.296" x2="109.142" y2="-36.3" width="1.016" layer="1"/>
-<wire x1="111.73" y1="-40.2754" x2="113.6214" y2="-40.2754" width="1.27" layer="1"/>
-<wire x1="113.6214" y1="-40.2754" x2="113.635" y2="-40.289" width="1.016" layer="1"/>
 <wire x1="92.267" y1="-40.496" x2="92.541" y2="-40.496" width="0.1524" layer="1"/>
 <wire x1="94.991" y1="-38.046" x2="92.541" y2="-40.496" width="0.1524" layer="1"/>
 <wire x1="107.02568125" y1="-38.046" x2="107.13548125" y2="-37.9362" width="0.1524" layer="1"/>
@@ -9174,21 +9266,87 @@ design rules under a new name.</description>
 <wire x1="109.413" y1="-37.082" x2="109.413" y2="-36.563" width="0.1524" layer="1"/>
 <wire x1="109.413" y1="-36.563" x2="109.146" y2="-36.296" width="0.1524" layer="1"/>
 <wire x1="94.991" y1="-38.046" x2="107.02568125" y2="-38.046" width="0.1524" layer="1"/>
+<wire x1="109.142" y1="-36.3" x2="107.937" y2="-36.3" width="0.6096" layer="1"/>
+<wire x1="107.59834375" y1="-32.033" x2="106.4079" y2="-32.033" width="0.254" layer="1"/>
+<wire x1="106.326" y1="-31.9511" x2="106.4079" y2="-32.033" width="0.254" layer="1"/>
+<wire x1="107.59834375" y1="-32.033" x2="107.51534375" y2="-31.95" width="0.254" layer="1"/>
+<wire x1="107.51534375" y1="-31.146" x2="107.58034375" y2="-31.081" width="0.254" layer="1"/>
+<wire x1="107.51534375" y1="-31.146" x2="107.51534375" y2="-31.95" width="0.254" layer="1"/>
+<via x="114.173" y="-42.4688" extent="1-16" drill="0.35"/>
+<via x="113.3602" y="-42.4688" extent="1-16" drill="0.35"/>
+<via x="113.3602" y="-43.3832" extent="1-16" drill="0.35"/>
+<wire x1="111.73" y1="-40.2754" x2="113.021" y2="-40.2754" width="1.016" layer="1"/>
+<wire x1="113.021" y1="-40.2754" x2="113.2332" y2="-40.4876" width="1.016" layer="1"/>
+<wire x1="113.2332" y1="-40.4876" x2="113.2332" y2="-43.2558" width="1.016" layer="1"/>
+<wire x1="113.2332" y1="-43.2558" x2="113.0786" y2="-43.4104" width="1.016" layer="1"/>
+<wire x1="113.3602" y1="-43.3832" x2="113.3602" y2="-43.2816" width="1.016" layer="1"/>
+<wire x1="113.3602" y1="-43.2816" x2="114.173" y2="-42.4688" width="1.016" layer="1"/>
+<wire x1="113.3602" y1="-42.4688" x2="114.173" y2="-42.4688" width="1.27" layer="1"/>
+<wire x1="114.173" y1="-42.4688" x2="111.6838" y2="-39.9796" width="1.016" layer="16"/>
+<wire x1="111.6838" y1="-39.9796" x2="111.6838" y2="-38.481" width="1.016" layer="16"/>
+<wire x1="111.6838" y1="-38.481" x2="111.5644" y2="-38.3616" width="1.016" layer="16"/>
+<wire x1="111.5644" y1="-38.3616" x2="110.48679375" y2="-38.3616" width="1.016" layer="16"/>
+<wire x1="110.48679375" y1="-38.3616" x2="110.19979375" y2="-38.0746" width="1.016" layer="16"/>
+<via x="104.14" y="-33.5026" extent="1-16" drill="0.35"/>
+<wire x1="104.0746" y1="-35.377575" x2="104.0746" y2="-33.5026" width="1.016" layer="16"/>
+<wire x1="110.19979375" y1="-38.0746" x2="106.771625" y2="-38.0746" width="1.016" layer="16"/>
+<wire x1="106.771625" y1="-38.0746" x2="104.0746" y2="-35.377575" width="1.016" layer="16"/>
+<wire x1="104.14" y1="-33.5026" x2="104.14" y2="-32.2371" width="1.016" layer="1"/>
+<wire x1="104.14" y1="-32.2371" x2="104.4108" y2="-31.9663" width="1.016" layer="1"/>
+<wire x1="104.4108" y1="-31.9663" x2="104.4108" y2="-31.9511" width="1.016" layer="1"/>
+<wire x1="104.4108" y1="-31.9663" x2="104.4108" y2="-32.60739375" width="1.016" layer="1"/>
+<wire x1="104.4108" y1="-32.60739375" x2="104.3314" y2="-32.68679375" width="1.016" layer="1"/>
+<wire x1="104.3314" y1="-32.68679375" x2="104.3314" y2="-33.54720625" width="1.016" layer="1"/>
+<wire x1="104.3314" y1="-33.54720625" x2="104.93979375" y2="-34.1556" width="1.016" layer="1"/>
+<wire x1="104.93979375" y1="-34.1556" x2="105.80020625" y2="-34.1556" width="1.016" layer="1"/>
+<wire x1="105.80020625" y1="-34.1556" x2="106.4086" y2="-33.54720625" width="1.016" layer="1"/>
+<wire x1="106.4086" y1="-33.54720625" x2="106.4086" y2="-32.68679375" width="1.016" layer="1"/>
+<wire x1="106.4086" y1="-32.68679375" x2="106.4079" y2="-32.68609375" width="1.016" layer="1"/>
+<wire x1="106.4079" y1="-32.68609375" x2="106.4079" y2="-32.033" width="1.016" layer="1"/>
+<via x="103.3018" y="-33.528" extent="1-16" drill="0.35"/>
+<via x="103.7336" y="-34.2138" extent="1-16" drill="0.35"/>
+<wire x1="103.3018" y1="-33.528" x2="103.7336" y2="-33.9598" width="1.016" layer="16"/>
+<wire x1="103.7336" y1="-33.9598" x2="103.7336" y2="-34.2138" width="1.016" layer="16"/>
+<polygon width="0.0762" layer="1">
+<vertex x="104.2162" y="-32.9184"/>
+<vertex x="104.1908" y="-32.9438"/>
+<vertex x="102.8446" y="-32.9438"/>
+<vertex x="102.8446" y="-34.0868"/>
+<vertex x="103.4542" y="-34.6964"/>
+<vertex x="104.648" y="-34.6964"/>
+<vertex x="104.648" y="-32.9438"/>
+<vertex x="104.6226" y="-32.9184"/>
+</polygon>
+<polygon width="0.0762" layer="16">
+<vertex x="113.157" y="-41.9354"/>
+<vertex x="113.2332" y="-42.0116"/>
+<vertex x="114.6048" y="-42.0116"/>
+<vertex x="114.6556" y="-42.0624"/>
+<vertex x="114.6556" y="-42.926"/>
+<vertex x="113.6396" y="-43.942"/>
+<vertex x="113.1824" y="-43.942"/>
+<vertex x="113.1316" y="-43.942"/>
+<vertex x="112.8268" y="-43.6372"/>
+<vertex x="112.8268" y="-42.2656"/>
+<vertex x="113.1316" y="-41.9608"/>
+</polygon>
 <wire x1="95.2425" y1="103.82" x2="111.21034375" y2="88.9" width="0" layer="19" extent="1-1"/>
 <wire x1="138.0996" y1="39.37" x2="111.21034375" y2="88.9" width="0" layer="19" extent="1-1"/>
 <wire x1="118.11" y1="24.13" x2="138.0996" y2="39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="109.142" y1="-36.3" x2="118.11" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-48.80965625" x2="92.267" y2="-40.496" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.35" y1="-47.53965625" x2="0" y2="-48.80965625" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.0499" y1="-54.93" x2="-6.35" y2="-47.53965625" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.0499" y1="-56.83" x2="-5.0499" y2="-54.93" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.59965625" y1="12.7" x2="-6.35" y2="-47.53965625" width="0" layer="19" extent="1-1"/>
+<wire x1="107.58034375" y1="-31.081" x2="118.11" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="104.426" y1="-31.9511" x2="104.4108" y2="-31.9511" width="0" layer="19" extent="1-1"/>
+<wire x1="104.0746" y1="-33.5026" x2="104.14" y2="-33.5026" width="0" layer="19" extent="16-16"/>
+<wire x1="111.77" y1="-43.4104" x2="113.3602" y2="-43.3832" width="0" layer="19" extent="1-1"/>
+<wire x1="107.937" y1="-36.3" x2="107.59834375" y2="-32.033" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.59965625" y1="12.7" x2="92.267" y2="-40.496" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.3714" y1="22.225" x2="-19.59965625" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LDOLED">
 <contactref element="D3" pad="A"/>
 <contactref element="R15" pad="1"/>
-<wire x1="6.35" y1="-47.51" x2="6.35" y2="-56.312815625" width="0" layer="19" extent="1-1"/>
+<wire x1="100.648" y1="-33.097" x2="100.651" y2="-33.094" width="0.1524" layer="1"/>
+<wire x1="100.59" y1="-32.274815625" x2="100.648" y2="-32.332815625" width="0.1524" layer="1"/>
+<wire x1="100.648" y1="-32.332815625" x2="100.648" y2="-33.097" width="0.1524" layer="1"/>
 </signal>
 <signal name="+24V" class="1">
 <contactref element="P1" pad="3"/>
@@ -9240,10 +9398,10 @@ design rules under a new name.</description>
 <wire x1="104.914" y1="-43.624" x2="104.864" y2="-43.674" width="0.3048" layer="1"/>
 <wire x1="104.864" y1="-43.674" x2="104.250075" y2="-43.674" width="0.3048" layer="1"/>
 <wire x1="104.250075" y1="-43.674" x2="104.2035375" y2="-43.7205375" width="0.3048" layer="1"/>
-<wire x1="102.593" y1="-43.981184375" x2="103.326184375" y2="-43.981184375" width="0.3048" layer="1"/>
+<wire x1="102.484" y1="-43.981184375" x2="103.326184375" y2="-43.981184375" width="0.3048" layer="1"/>
 <wire x1="103.326184375" y1="-43.981184375" x2="103.359" y2="-44.014" width="0.3048" layer="1"/>
-<wire x1="102.593" y1="-43.981184375" x2="102.572184375" y2="-44.002" width="0.3048" layer="1"/>
-<wire x1="102.572184375" y1="-44.002" x2="101.739" y2="-44.002" width="0.3048" layer="1"/>
+<wire x1="102.484" y1="-43.981184375" x2="102.463184375" y2="-44.002" width="0.3048" layer="1"/>
+<wire x1="102.463184375" y1="-44.002" x2="101.739" y2="-44.002" width="0.3048" layer="1"/>
 <wire x1="101.474" y1="-42.81565625" x2="100.96465625" y2="-42.81565625" width="0.3048" layer="1"/>
 <wire x1="100.96465625" y1="-42.81565625" x2="100.917" y2="-42.768" width="0.3048" layer="1"/>
 <wire x1="101.474" y1="-42.81565625" x2="102.08665625" y2="-42.81565625" width="0.3048" layer="1"/>
@@ -9336,20 +9494,25 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="102.742" y1="-36.3" x2="101.376" y2="-36.3" width="1.016" layer="1"/>
 <wire x1="101.376" y1="-36.3" x2="101.128" y2="-36.548" width="1.016" layer="1"/>
-<wire x1="108.970675" y1="-40.748" x2="109.077084375" y2="-40.748" width="0.1524" layer="1"/>
+<wire x1="108.976675" y1="-40.857" x2="109.083084375" y2="-40.857" width="0.1524" layer="1"/>
 <wire x1="105.033" y1="-42.793" x2="104.914" y2="-42.674" width="0.1524" layer="1"/>
-<wire x1="109.077084375" y1="-40.748" x2="109.077084375" y2="-40.131084375" width="0.3048" layer="1"/>
-<wire x1="109.077084375" y1="-40.131084375" x2="108.998" y2="-40.052" width="0.3048" layer="1"/>
+<wire x1="109.083084375" y1="-40.857" x2="109.083084375" y2="-40.137084375" width="0.3048" layer="1"/>
+<wire x1="109.083084375" y1="-40.137084375" x2="108.998" y2="-40.052" width="0.3048" layer="1"/>
 <via x="108.998" y="-40.052" extent="1-16" drill="0.35"/>
-<wire x1="107.142" y1="-37.96" x2="100.495" y2="-37.96" width="0.6096" layer="16"/>
-<wire x1="108.998" y1="-40.052" x2="108.998" y2="-39.816" width="0.6096" layer="16"/>
-<wire x1="108.998" y1="-39.816" x2="107.142" y2="-37.96" width="0.6096" layer="16"/>
+<wire x1="108.998" y1="-40.052" x2="108.189" y2="-39.243" width="1.016" layer="16"/>
+<wire x1="108.189" y1="-39.243" x2="106.28765625" y2="-39.243" width="1.016" layer="16"/>
+<wire x1="102.9062" y1="-35.86154375" x2="102.9062" y2="-35.03876875" width="1.016" layer="16"/>
+<wire x1="106.28765625" y1="-39.243" x2="102.9062" y2="-35.86154375" width="1.016" layer="16"/>
+<wire x1="102.61463125" y1="-34.7472" x2="100.838" y2="-34.7472" width="1.016" layer="16"/>
+<wire x1="100.838" y1="-34.7472" x2="100.322" y2="-35.2632" width="1.016" layer="16"/>
+<wire x1="100.322" y1="-35.2632" x2="100.322" y2="-36.514" width="1.016" layer="16"/>
+<wire x1="102.9062" y1="-35.03876875" x2="102.61463125" y2="-34.7472" width="1.016" layer="16"/>
 </signal>
 <signal name="BCBOOT">
 <contactref element="P1" pad="6"/>
 <contactref element="C20" pad="1"/>
-<wire x1="107.98234375" y1="-40.748" x2="107.98234375" y2="-41.35565625" width="0.1524" layer="1"/>
-<wire x1="107.98234375" y1="-41.35565625" x2="107.614" y2="-41.724" width="0.1524" layer="1"/>
+<wire x1="107.98834375" y1="-40.857" x2="107.98834375" y2="-41.34965625" width="0.1524" layer="1"/>
+<wire x1="107.98834375" y1="-41.34965625" x2="107.614" y2="-41.724" width="0.1524" layer="1"/>
 </signal>
 <signal name="VREGEN">
 <contactref element="P1" pad="5"/>
@@ -9357,8 +9520,8 @@ design rules under a new name.</description>
 <contactref element="R6" pad="2"/>
 <via x="103.743725" y="-40.72" extent="1-16" drill="0.35"/>
 <wire x1="103.743725" y1="-40.72" x2="103.743725" y2="-40.719" width="0.254" layer="1"/>
-<wire x1="103.743725" y1="-40.719" x2="103.431909375" y2="-40.407184375" width="0.254" layer="1"/>
-<wire x1="103.431909375" y1="-40.407184375" x2="102.663" y2="-40.407184375" width="0.254" layer="1"/>
+<wire x1="103.743725" y1="-40.719" x2="103.427909375" y2="-40.403184375" width="0.254" layer="1"/>
+<wire x1="103.427909375" y1="-40.403184375" x2="102.644" y2="-40.403184375" width="0.254" layer="1"/>
 <wire x1="103.743725" y1="-40.72" x2="105.148" y2="-42.124275" width="0.254" layer="16"/>
 <wire x1="105.148" y1="-42.124275" x2="105.148" y2="-42.723" width="0.254" layer="16"/>
 <wire x1="105.148" y1="-42.723" x2="106.398" y2="-42.723" width="0.254" layer="16"/>
@@ -9366,8 +9529,8 @@ design rules under a new name.</description>
 <wire x1="106.734" y1="-42.674" x2="106.685" y2="-42.723" width="0.254" layer="1"/>
 <wire x1="106.398" y1="-42.723" x2="106.685" y2="-42.723" width="0.254" layer="1"/>
 <wire x1="106.734" y1="-42.674" x2="107.614" y2="-42.674" width="0.254" layer="1"/>
-<wire x1="102.615184375" y1="-44.869" x2="102.593" y2="-44.846815625" width="0.254" layer="1"/>
-<wire x1="102.593" y1="-44.846815625" x2="103.632184375" y2="-44.846815625" width="0.254" layer="1"/>
+<wire x1="102.506184375" y1="-44.869" x2="102.484" y2="-44.846815625" width="0.254" layer="1"/>
+<wire x1="102.484" y1="-44.846815625" x2="103.632184375" y2="-44.846815625" width="0.254" layer="1"/>
 <wire x1="103.632184375" y1="-44.846815625" x2="103.802" y2="-44.677" width="0.254" layer="1"/>
 <via x="103.802" y="-44.677" extent="1-16" drill="0.35"/>
 <wire x1="103.802" y1="-44.677" x2="105.148" y2="-43.331" width="0.254" layer="16"/>
@@ -9377,10 +9540,10 @@ design rules under a new name.</description>
 <contactref element="R7" pad="1"/>
 <contactref element="R8" pad="2"/>
 <contactref element="C23" pad="1"/>
-<wire x1="109.05565625" y1="-44.566" x2="109.832815625" y2="-43.788840625" width="0.1524" layer="1"/>
-<wire x1="109.832815625" y1="-43.788840625" x2="109.832815625" y2="-43.399" width="0.1524" layer="1"/>
-<wire x1="109.832815625" y1="-43.399" x2="109.832815625" y2="-43.93563125" width="0.1524" layer="1"/>
-<wire x1="109.832815625" y1="-43.93563125" x2="110.475184375" y2="-44.578" width="0.1524" layer="1"/>
+<wire x1="109.05565625" y1="-44.566" x2="109.809815625" y2="-43.811840625" width="0.1524" layer="1"/>
+<wire x1="109.809815625" y1="-43.811840625" x2="109.809815625" y2="-43.295" width="0.1524" layer="1"/>
+<wire x1="109.809815625" y1="-43.295" x2="109.809815625" y2="-44.21863125" width="0.1524" layer="1"/>
+<wire x1="109.809815625" y1="-44.21863125" x2="110.158184375" y2="-44.567" width="0.1524" layer="1"/>
 </signal>
 <signal name="VREGFB">
 <contactref element="P1" pad="4"/>
@@ -9390,10 +9553,10 @@ design rules under a new name.</description>
 <wire x1="107.614" y1="-43.624" x2="107.960915625" y2="-43.970915625" width="0.1524" layer="1"/>
 <wire x1="107.960915625" y1="-43.970915625" x2="107.960915625" y2="-44.566" width="0.1524" layer="1"/>
 <wire x1="107.614" y1="-43.624" x2="108.298" y2="-43.624" width="0.1524" layer="1"/>
-<wire x1="108.523" y1="-43.399" x2="108.967184375" y2="-43.399" width="0.1524" layer="1"/>
-<wire x1="108.298" y1="-43.624" x2="108.523" y2="-43.399" width="0.1524" layer="1"/>
-<wire x1="108.967184375" y1="-43.399" x2="108.967184375" y2="-42.072" width="0.1524" layer="1"/>
-<wire x1="108.967184375" y1="-42.072" x2="108.939184375" y2="-42.044" width="0.1524" layer="1"/>
+<wire x1="108.627" y1="-43.295" x2="108.944184375" y2="-43.295" width="0.1524" layer="1"/>
+<wire x1="108.298" y1="-43.624" x2="108.627" y2="-43.295" width="0.1524" layer="1"/>
+<wire x1="108.944184375" y1="-43.295" x2="108.944184375" y2="-42.245" width="0.1524" layer="1"/>
+<wire x1="108.944184375" y1="-42.245" x2="108.939184375" y2="-42.24" width="0.1524" layer="1"/>
 </signal>
 <signal name="OSC_IN">
 <contactref element="X1" pad="P$1"/>
@@ -9402,14 +9565,14 @@ design rules under a new name.</description>
 <contactref element="U1" pad="20"/>
 <wire x1="73.66" y1="85.81034375" x2="79.59" y2="86.53" width="0" layer="19" extent="1-1"/>
 <wire x1="67.31" y1="88.062815625" x2="73.66" y2="85.81034375" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.7" y1="103.3288" x2="67.31" y2="88.062815625" width="0" layer="19" extent="1-1"/>
+<wire x1="114.788" y1="-32.3968" x2="79.59" y2="86.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OSC_OUT">
 <contactref element="R3" pad="2"/>
 <contactref element="R4" pad="1"/>
 <contactref element="U1" pad="21"/>
 <wire x1="67.31" y1="87.197184375" x2="67.31" y2="93.142815625" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.3" y1="103.3288" x2="67.31" y2="93.142815625" width="0" layer="19" extent="1-1"/>
+<wire x1="115.188" y1="-32.3968" x2="67.31" y2="87.197184375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XR">
 <contactref element="X1" pad="P$3"/>
@@ -9422,8 +9585,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="43"/>
 <contactref element="C13" pad="1"/>
 <contactref element="R2" pad="1"/>
-<wire x1="-23.292815625" y1="97.79" x2="-35.5" y2="110.0312" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.45965625" y1="85.09" x2="-23.292815625" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="152.69834375" y1="-52.839" x2="171.865184375" y2="-40.139" width="0" layer="19" extent="1-1"/>
+<wire x1="117.988" y1="-25.6944" x2="152.69834375" y2="-52.839" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+1.1V" class="1">
 <contactref element="C4" pad="1"/>
@@ -9432,11 +9595,11 @@ design rules under a new name.</description>
 <contactref element="U1" pad="23"/>
 <contactref element="U1" pad="50"/>
 <contactref element="U1" pad="45"/>
-<wire x1="-15.78965625" y1="91.44" x2="-9.43965625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.29965625" y1="85.09" x2="-15.78965625" y2="91.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.5" y1="103.3288" x2="-32.29965625" y2="85.09" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.3" y1="110.0312" x2="-37.5" y2="103.3288" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.3" y1="110.0312" x2="-38.3" y2="110.0312" width="0" layer="19" extent="1-1"/>
+<wire x1="116.8918" y1="-20.03505625" x2="120.8278" y2="-20.04305625" width="0" layer="19" extent="1-1"/>
+<wire x1="117.188" y1="-25.6944" x2="116.8918" y2="-20.03505625" width="0" layer="19" extent="1-1"/>
+<wire x1="115.188" y1="-25.6944" x2="117.188" y2="-25.6944" width="0" layer="19" extent="1-1"/>
+<wire x1="115.988" y1="-32.3968" x2="115.188" y2="-25.6944" width="0" layer="19" extent="1-1"/>
+<wire x1="117.718" y1="-36.12554375" x2="115.988" y2="-32.3968" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HE0">
 <contactref element="U1" pad="31"/>
@@ -9445,86 +9608,86 @@ design rules under a new name.</description>
 <contactref element="HE0" pad="P$1"/>
 <wire x1="105.842815625" y1="88.9" x2="116.84" y2="91.44" width="0" layer="19" extent="1-1"/>
 <wire x1="92.7175" y1="102.87" x2="105.842815625" y2="88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.7488" y1="104.88" x2="92.7175" y2="102.87" width="0" layer="19" extent="1-1"/>
+<wire x1="118.7392" y1="-30.8456" x2="105.842815625" y2="88.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAN0">
 <contactref element="U1" pad="11"/>
 <contactref element="R45" pad="2"/>
 <contactref element="R44" pad="2"/>
 <wire x1="170.612815625" y1="22.86" x2="189.662815625" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.4512" y1="105.28" x2="170.612815625" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="112.0368" y1="-30.4456" x2="170.612815625" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAN1">
 <contactref element="U1" pad="12"/>
 <contactref element="R46" pad="2"/>
 <contactref element="R47" pad="2"/>
 <wire x1="175.692815625" y1="22.86" x2="196.012815625" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.4512" y1="104.88" x2="175.692815625" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="112.0368" y1="-30.8456" x2="175.692815625" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAN2">
 <contactref element="U1" pad="13"/>
 <contactref element="R48" pad="2"/>
 <contactref element="R49" pad="2"/>
 <wire x1="180.772815625" y1="22.86" x2="202.362815625" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.4512" y1="104.48" x2="180.772815625" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="112.0368" y1="-31.2456" x2="180.772815625" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="E0_DIR">
 <contactref element="U1" pad="32"/>
 <contactref element="R25" pad="1"/>
-<wire x1="-34.7488" y1="105.28" x2="110.057184375" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="118.7392" y1="-30.4456" x2="110.057184375" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="E0_STEP">
 <contactref element="U1" pad="36"/>
 <contactref element="R24" pad="1"/>
-<wire x1="-34.7488" y1="106.88" x2="104.977184375" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="118.7392" y1="-28.8456" x2="104.977184375" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="E0_UART">
 <contactref element="U1" pad="37"/>
 <contactref element="U7" pad="14"/>
 <contactref element="R22" pad="2"/>
 <wire x1="109.45" y1="69.9667" x2="141.402815625" y2="63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.7488" y1="107.28" x2="109.45" y2="69.9667" width="0" layer="19" extent="1-1"/>
+<wire x1="118.7392" y1="-28.4456" x2="141.402815625" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="E0_DIAG">
 <contactref element="U1" pad="39"/>
 <contactref element="U7" pad="11"/>
-<wire x1="-34.7488" y1="108.08" x2="107.95" y2="69.9667" width="0" layer="19" extent="1-1"/>
+<wire x1="118.7392" y1="-27.6456" x2="107.95" y2="69.9667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_RX">
 <contactref element="U1" pad="2"/>
 <contactref element="U3" pad="4"/>
-<wire x1="-34.3714" y1="20.955" x2="-41.4512" y2="108.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.3714" y1="20.955" x2="112.0368" y2="-26.8456" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_TX">
 <contactref element="U1" pad="3"/>
 <contactref element="U3" pad="1"/>
-<wire x1="-34.3714" y1="24.765" x2="-41.4512" y2="108.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.3714" y1="24.765" x2="112.0368" y2="-27.2456" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="E0_EN">
 <contactref element="U1" pad="40"/>
 <contactref element="R23" pad="2"/>
-<wire x1="-34.7488" y1="108.48" x2="146.482815625" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="118.7392" y1="-27.2456" x2="146.482815625" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_MISO">
 <contactref element="U1" pad="15"/>
 <contactref element="U5" pad="12"/>
 <contactref element="R18" pad="1"/>
-<wire x1="-25.832815625" y1="38.1" x2="-40.7" y2="103.3288" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.0625" y1="39.3" x2="-25.832815625" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.0625" y1="39.3" x2="112.788" y2="-32.3968" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.832815625" y1="38.1" x2="-9.0625" y2="39.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_CS">
 <contactref element="U1" pad="16"/>
 <contactref element="U5" pad="7"/>
 <contactref element="R19" pad="1"/>
-<wire x1="-20.752815625" y1="38.1" x2="-40.3" y2="103.3288" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.16" y1="36.0025" x2="-20.752815625" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.16" y1="36.0025" x2="113.188" y2="-32.3968" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.752815625" y1="38.1" x2="-10.16" y2="36.0025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_MOSI">
 <contactref element="U1" pad="18"/>
 <contactref element="U5" pad="13"/>
 <contactref element="R17" pad="1"/>
-<wire x1="-30.912815625" y1="38.1" x2="-39.5" y2="103.3288" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.0625" y1="40.1" x2="-30.912815625" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.0625" y1="40.1" x2="113.988" y2="-32.3968" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.912815625" y1="38.1" x2="-9.0625" y2="40.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI0_MISO">
 <contactref element="U1" pad="27"/>
@@ -9547,7 +9710,7 @@ design rules under a new name.</description>
 <signal name="ENDSTOP_X">
 <contactref element="U1" pad="9"/>
 <contactref element="R40" pad="1"/>
-<wire x1="-41.4512" y1="106.08" x2="145.617184375" y2="92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="112.0368" y1="-29.6456" x2="145.617184375" y2="92.71" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="U1" pad="24"/>
@@ -9560,8 +9723,8 @@ design rules under a new name.</description>
 <contactref element="R14" pad="1"/>
 <contactref element="C25" pad="2"/>
 <contactref element="RST" pad="2"/>
-<wire x1="-16.03" y1="57.15" x2="-36.3" y2="103.3288" width="0" layer="19" extent="1-1"/>
-<wire x1="-12.154915625" y1="49.53" x2="-16.03" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.154915625" y1="49.53" x2="117.188" y2="-32.3968" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.03" y1="57.15" x2="-12.154915625" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.372815625" y1="49.53" x2="-16.03" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QSPI_SS">
@@ -9569,59 +9732,59 @@ design rules under a new name.</description>
 <contactref element="U2" pad="1"/>
 <contactref element="R12" pad="1"/>
 <contactref element="R13" pad="1"/>
-<wire x1="-30.2649" y1="75.565" x2="-40.7" y2="110.0312" width="0" layer="19" extent="1-1"/>
-<wire x1="-39.802815625" y1="49.53" x2="-30.2649" y2="75.565" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.482815625" y1="49.53" x2="-39.802815625" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="112.788" y1="-25.6944" x2="107.8349" y2="-17.6784" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.482815625" y1="49.53" x2="107.8349" y2="-17.6784" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.802815625" y1="49.53" x2="-19.482815625" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QSPI_SD1">
 <contactref element="U1" pad="55"/>
 <contactref element="U2" pad="2"/>
-<wire x1="-30.2649" y1="74.295" x2="-40.3" y2="110.0312" width="0" layer="19" extent="1-1"/>
+<wire x1="113.188" y1="-25.6944" x2="107.8349" y2="-18.9484" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QSPI_SD2">
 <contactref element="U1" pad="54"/>
 <contactref element="U2" pad="3"/>
-<wire x1="-30.2649" y1="73.025" x2="-39.9" y2="110.0312" width="0" layer="19" extent="1-1"/>
+<wire x1="113.588" y1="-25.6944" x2="107.8349" y2="-20.2184" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QSPI_SD0">
 <contactref element="U1" pad="53"/>
 <contactref element="U2" pad="5"/>
-<wire x1="-23.0751" y1="71.755" x2="-39.5" y2="110.0312" width="0" layer="19" extent="1-1"/>
+<wire x1="113.988" y1="-25.6944" x2="115.0247" y2="-21.4884" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QSPI_SCK">
 <contactref element="U1" pad="52"/>
 <contactref element="U2" pad="6"/>
-<wire x1="-23.0751" y1="73.025" x2="-39.1" y2="110.0312" width="0" layer="19" extent="1-1"/>
+<wire x1="114.388" y1="-25.6944" x2="115.0247" y2="-20.2184" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QSPI_SD3">
 <contactref element="U1" pad="51"/>
 <contactref element="U2" pad="7"/>
-<wire x1="-23.0751" y1="74.295" x2="-38.7" y2="110.0312" width="0" layer="19" extent="1-1"/>
+<wire x1="114.788" y1="-25.6944" x2="115.0247" y2="-18.9484" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB_P" class="2">
 <contactref element="U1" pad="47"/>
 <contactref element="R10" pad="2"/>
 <contactref element="IO2" pad="P$1"/>
-<wire x1="115.57" y1="24.13" x2="137.592815625" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.1" y1="110.0312" x2="115.57" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="118.8428" y1="-20.167215625" x2="115.57" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="116.388" y1="-25.6944" x2="118.8428" y2="-20.167215625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB_N" class="2">
 <contactref element="U1" pad="46"/>
 <contactref element="R11" pad="2"/>
 <contactref element="IO1" pad="P$1"/>
-<wire x1="113.03" y1="24.13" x2="143.942815625" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.7" y1="110.0312" x2="113.03" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="119.8608" y1="-20.169215625" x2="113.03" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="116.788" y1="-25.6944" x2="119.8608" y2="-20.169215625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADC_R">
 <contactref element="R2" pad="2"/>
 <contactref element="R1" pad="1"/>
-<wire x1="-28.372815625" y1="97.79" x2="-22.427184375" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="166.785184375" y1="-40.139" x2="172.730815625" y2="-40.139" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="U1" pad="17"/>
 <contactref element="U5" pad="14"/>
 <contactref element="R20" pad="1"/>
-<wire x1="-10.16" y1="40.1975" x2="-39.9" y2="103.3288" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.16" y1="40.1975" x2="113.588" y2="-32.3968" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.912815625" y1="31.75" x2="-10.16" y2="40.1975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TH0">
@@ -9631,17 +9794,17 @@ design rules under a new name.</description>
 <contactref element="TH0" pad="P$1"/>
 <wire x1="33.74034375" y1="125.73" x2="58.42" y2="128.27" width="0" layer="19" extent="1-1"/>
 <wire x1="22.022815625" y1="125.73" x2="33.74034375" y2="125.73" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.7488" y1="107.68" x2="22.022815625" y2="125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="118.7392" y1="-28.0456" x2="58.42" y2="128.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIOLED">
 <contactref element="R28" pad="1"/>
 <contactref element="D9" pad="A"/>
-<wire x1="-39.89" y1="97.79" x2="-34.722815625" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="155.268" y1="-40.139" x2="160.435184375" y2="-40.139" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED">
 <contactref element="U1" pad="4"/>
 <contactref element="R28" pad="2"/>
-<wire x1="-33.857184375" y1="97.79" x2="-41.4512" y2="108.08" width="0" layer="19" extent="1-1"/>
+<wire x1="112.0368" y1="-27.6456" x2="161.300815625" y2="-40.139" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWB">
 <contactref element="R12" pad="2"/>
@@ -9797,10 +9960,10 @@ design rules under a new name.</description>
 <contactref element="R10" pad="1"/>
 <contactref element="D2" pad="1"/>
 <contactref element="D2" pad="6"/>
-<wire x1="110.74" y1="39.2" x2="136.727184375" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="110.24" y1="39.2" x2="110.74" y2="39.2" width="0" layer="19" extent="1-1"/>
-<wire x1="109.8796" y1="46.22" x2="110.24" y2="39.2" width="0" layer="19" extent="1-1"/>
 <wire x1="108.5604" y1="46.22" x2="109.8796" y2="46.22" width="0" layer="19" extent="1-1"/>
+<wire x1="110.24" y1="39.2" x2="109.8796" y2="46.22" width="0" layer="19" extent="1-1"/>
+<wire x1="110.74" y1="39.2" x2="110.24" y2="39.2" width="0" layer="19" extent="1-1"/>
+<wire x1="118.8428" y1="-19.301584375" x2="110.74" y2="39.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB1_N" class="2">
 <contactref element="USB" pad="8"/>
@@ -9808,10 +9971,10 @@ design rules under a new name.</description>
 <contactref element="R11" pad="1"/>
 <contactref element="D2" pad="3"/>
 <contactref element="D2" pad="4"/>
-<wire x1="111.24" y1="39.2" x2="143.077184375" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="109.74" y1="39.2" x2="111.24" y2="39.2" width="0" layer="19" extent="1-1"/>
-<wire x1="109.8796" y1="45.22" x2="109.74" y2="39.2" width="0" layer="19" extent="1-1"/>
 <wire x1="108.5604" y1="45.22" x2="109.8796" y2="45.22" width="0" layer="19" extent="1-1"/>
+<wire x1="109.74" y1="39.2" x2="109.8796" y2="45.22" width="0" layer="19" extent="1-1"/>
+<wire x1="111.24" y1="39.2" x2="109.74" y2="39.2" width="0" layer="19" extent="1-1"/>
+<wire x1="119.8608" y1="-19.303584375" x2="111.24" y2="39.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBUS1" class="1">
 <contactref element="D2" pad="5"/>
