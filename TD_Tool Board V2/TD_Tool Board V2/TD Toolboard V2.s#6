@@ -9312,7 +9312,7 @@ grid 2.54 mm</description>
 </part>
 <part name="SUPPLY48" library="Power_Symbols" deviceset="+3.3V" device="" value="+3.3V"/>
 <part name="SUPPLY49" library="Power_Symbols" deviceset="+3.3V" device="" value="+3.3V"/>
-<part name="U3" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="SN65HVD1050DR" device="D8-L">
+<part name="U3" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="SN65HVD1050DR" device="D8-L" value="SN65HVD">
 <attribute name="LCSCPN#" value="C14019"/>
 </part>
 <part name="SUPPLY41" library="Power_Symbols" deviceset="+3.3V" device="" value="+3.3V"/>
@@ -9330,11 +9330,11 @@ grid 2.54 mm</description>
 <part name="R16" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/2" technology="_" value="120R">
 <attribute name="LCSCPN#" value="C25079"/>
 </part>
-<part name="L2" library="2023-04-02_14-21-16_Library" deviceset="ACM2012-201-2P-T002" device="ACM2012_TDK">
+<part name="L2" library="2023-04-02_14-21-16_Library" deviceset="ACM2012-201-2P-T002" device="ACM2012_TDK" value="ACM2012">
 <attribute name="LCSCPN#" value="C3029258"/>
 </part>
 <part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="U7" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="TMC2209-LA-T" device="QFN28_5X5_3X8_EPAD_TRI" value="TMC2209-LA-TQFN28_5X5_3X8_EPAD_TRI">
+<part name="U7" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="TMC2209-LA-T" device="QFN28_5X5_3X8_EPAD_TRI" value="TMC2209">
 <attribute name="LCSCPN#" value="C2150710"/>
 </part>
 <part name="SUPPLY51" library="Power_Symbols" deviceset="+3.3V" device="" value="+3.3V"/>
@@ -9456,7 +9456,6 @@ grid 2.54 mm</description>
 <part name="SUPPLY34" library="Power_Symbols" deviceset="+5V" device="" value="+5V"/>
 <part name="IO1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
 <part name="IO2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
-<part name="IO3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/1"/>
 <part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SUPPLY68" library="Power_Symbols" deviceset="+12V" device="" value="+24V"/>
 <part name="SUPPLY69" library="Power_Symbols" deviceset="GND-BAR" device="" value="GND"/>
@@ -9488,7 +9487,7 @@ grid 2.54 mm</description>
 <part name="A1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="B1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="B2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
-<part name="X4" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD">
+<part name="EXTRUDER" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD">
 <attribute name="EXTRUDER" value=""/>
 </part>
 <part name="M2" library="Transistor" deviceset="NMOSFET_" device="_SOT23-GSD" package3d_urn="urn:adsk.eagle:package:28738/2" technology="BSS123" value="CJ3400">
@@ -10326,9 +10325,6 @@ CAN H = CAN_P</text>
 <instance part="IO2" gate="G$1" x="360.68" y="-131.064" smashed="yes" rot="R180">
 <attribute name="NAME" x="356.87" y="-131.064" size="1.27" layer="95" font="vector" rot="R180" align="center-left"/>
 </instance>
-<instance part="IO3" gate="G$1" x="370.84" y="-120.904" smashed="yes" rot="R180">
-<attribute name="NAME" x="367.03" y="-120.904" size="1.27" layer="95" font="vector" rot="R180" align="center-left"/>
-</instance>
 <instance part="SJ3" gate="1" x="439.42" y="-104.14" smashed="yes">
 <attribute name="NAME" x="436.88" y="-101.6" size="1.778" layer="95"/>
 <attribute name="VALUE" x="436.88" y="-109.22" size="1.778" layer="96"/>
@@ -10388,31 +10384,31 @@ CAN H = CAN_P</text>
 <instance part="TH0" gate="G$1" x="424.18" y="-208.28" smashed="yes">
 <attribute name="NAME" x="429.26" y="-208.28" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="A2" gate="G$1" x="368.3" y="-264.16" smashed="yes">
-<attribute name="NAME" x="373.38" y="-264.16" size="1.778" layer="95" font="vector"/>
+<instance part="A2" gate="G$1" x="393.7" y="-264.16" smashed="yes">
+<attribute name="NAME" x="398.78" y="-264.16" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="A1" gate="G$1" x="368.3" y="-261.62" smashed="yes">
-<attribute name="NAME" x="373.38" y="-261.62" size="1.778" layer="95" font="vector"/>
+<instance part="A1" gate="G$1" x="393.7" y="-261.62" smashed="yes">
+<attribute name="NAME" x="398.78" y="-261.62" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="B1" gate="G$1" x="368.3" y="-259.08" smashed="yes">
-<attribute name="NAME" x="373.38" y="-259.08" size="1.778" layer="95" font="vector"/>
+<instance part="B1" gate="G$1" x="393.7" y="-259.08" smashed="yes">
+<attribute name="NAME" x="398.78" y="-259.08" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="B2" gate="G$1" x="368.3" y="-256.54" smashed="yes">
-<attribute name="NAME" x="373.38" y="-256.54" size="1.778" layer="95" font="vector"/>
+<instance part="B2" gate="G$1" x="393.7" y="-256.54" smashed="yes">
+<attribute name="NAME" x="398.78" y="-256.54" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="X4" gate="-1" x="340.36" y="-264.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="337.82" y="-263.398" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="341.122" y="-265.557" size="1.778" layer="96" rot="R180"/>
-<attribute name="EXTRUDER" x="342.9" y="-254" size="1.778" layer="96" rot="R180" display="name"/>
+<instance part="EXTRUDER" gate="-1" x="365.76" y="-264.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="363.22" y="-263.398" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="366.522" y="-265.557" size="1.778" layer="96" rot="R180"/>
+<attribute name="EXTRUDER" x="368.3" y="-254" size="1.778" layer="96" rot="R180" display="name"/>
 </instance>
-<instance part="X4" gate="-2" x="340.36" y="-261.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="337.82" y="-260.858" size="1.524" layer="95" rot="R180"/>
+<instance part="EXTRUDER" gate="-2" x="365.76" y="-261.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="363.22" y="-260.858" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-3" x="340.36" y="-259.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="337.82" y="-258.318" size="1.524" layer="95" rot="R180"/>
+<instance part="EXTRUDER" gate="-3" x="365.76" y="-259.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="363.22" y="-258.318" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="-4" x="340.36" y="-256.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="337.82" y="-255.778" size="1.524" layer="95" rot="R180"/>
+<instance part="EXTRUDER" gate="-4" x="365.76" y="-256.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="363.22" y="-255.778" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="M2" gate="G$1" x="373.38" y="-370.84" smashed="yes">
 <attribute name="NAME" x="379.73" y="-369.57" size="1.778" layer="95"/>
@@ -11230,11 +11226,6 @@ CAN H = CAN_P</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="403.86" y1="-127" x2="383.54" y2="-127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY34" gate="G$1" pin="+5V"/>
-<wire x1="383.54" y1="-127" x2="383.54" y2="-119.38" width="0.1524" layer="91"/>
-<junction x="383.54" y="-127"/>
-<pinref part="IO3" gate="G$1" pin="1"/>
-<wire x1="383.54" y1="-119.38" x2="370.84" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="-119.38" x2="370.84" y2="-120.904" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LDOLED" class="0">
@@ -12038,10 +12029,10 @@ CAN H = CAN_P</text>
 <label x="43.18" y="-256.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="358.14" y="-256.54" size="1.27" layer="95" xref="yes"/>
+<label x="383.54" y="-256.54" size="1.27" layer="95" xref="yes"/>
 <pinref part="B2" gate="G$1" pin="1"/>
-<wire x1="368.3" y1="-256.54" x2="342.9" y2="-256.54" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-4" pin="S"/>
+<wire x1="393.7" y1="-256.54" x2="368.3" y2="-256.54" width="0.1524" layer="91"/>
+<pinref part="EXTRUDER" gate="-4" pin="S"/>
 </segment>
 </net>
 <net name="A2" class="1">
@@ -12051,10 +12042,10 @@ CAN H = CAN_P</text>
 <label x="96.52" y="-276.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="342.9" y1="-264.16" x2="368.3" y2="-264.16" width="0.1524" layer="91"/>
-<label x="358.14" y="-264.16" size="1.27" layer="95" xref="yes"/>
+<wire x1="368.3" y1="-264.16" x2="393.7" y2="-264.16" width="0.1524" layer="91"/>
+<label x="383.54" y="-264.16" size="1.27" layer="95" xref="yes"/>
 <pinref part="A2" gate="G$1" pin="1"/>
-<pinref part="X4" gate="-1" pin="S"/>
+<pinref part="EXTRUDER" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="A1" class="1">
@@ -12064,10 +12055,10 @@ CAN H = CAN_P</text>
 <label x="96.52" y="-269.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="342.9" y1="-261.62" x2="368.3" y2="-261.62" width="0.1524" layer="91"/>
-<label x="358.14" y="-261.62" size="1.27" layer="95" xref="yes"/>
+<wire x1="368.3" y1="-261.62" x2="393.7" y2="-261.62" width="0.1524" layer="91"/>
+<label x="383.54" y="-261.62" size="1.27" layer="95" xref="yes"/>
 <pinref part="A1" gate="G$1" pin="1"/>
-<pinref part="X4" gate="-2" pin="S"/>
+<pinref part="EXTRUDER" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="B1" class="1">
@@ -12077,10 +12068,10 @@ CAN H = CAN_P</text>
 <label x="96.52" y="-264.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="342.9" y1="-259.08" x2="368.3" y2="-259.08" width="0.1524" layer="91"/>
-<label x="358.14" y="-259.08" size="1.27" layer="95" xref="yes"/>
+<wire x1="368.3" y1="-259.08" x2="393.7" y2="-259.08" width="0.1524" layer="91"/>
+<label x="383.54" y="-259.08" size="1.27" layer="95" xref="yes"/>
 <pinref part="B1" gate="G$1" pin="1"/>
-<pinref part="X4" gate="-3" pin="S"/>
+<pinref part="EXTRUDER" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="TMCENN" class="0">
