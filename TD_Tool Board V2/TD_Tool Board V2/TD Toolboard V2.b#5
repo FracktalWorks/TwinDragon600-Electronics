@@ -8025,9 +8025,7 @@ design rules under a new name.</description>
 <vertex x="59.8678" y="4.064"/>
 <vertex x="4.9022" y="4.064"/>
 </polygon>
-<via x="7.7216" y="14.478" extent="1-16" drill="0.35"/>
 <via x="9.3726" y="13.1318" extent="1-16" drill="0.35"/>
-<via x="7.8994" y="11.4046" extent="1-16" drill="0.35"/>
 <via x="10.414" y="10.5918" extent="1-16" drill="0.35"/>
 <via x="53.7972" y="18.2118" extent="1-16" drill="0.35"/>
 <via x="54.9402" y="18.2118" extent="1-16" drill="0.35"/>
@@ -8041,25 +8039,17 @@ design rules under a new name.</description>
 <via x="42.3418" y="35.3568" extent="1-16" drill="0.35"/>
 <via x="47.3456" y="38.9128" extent="1-16" drill="0.35"/>
 <via x="47.3964" y="37.0078" extent="1-16" drill="0.35"/>
-<via x="48.8442" y="38.989" extent="1-16" drill="0.35"/>
 <via x="48.8696" y="37.0586" extent="1-16" drill="0.35"/>
 <via x="54.864" y="15.5194" extent="1-16" drill="0.35"/>
-<via x="56.2102" y="15.4432" extent="1-16" drill="0.35"/>
 <via x="57.3532" y="15.4432" extent="1-16" drill="0.35"/>
 <via x="55.0926" y="13.462" extent="1-16" drill="0.35"/>
-<via x="56.6674" y="13.4874" extent="1-16" drill="0.35"/>
 <via x="58.039" y="13.3096" extent="1-16" drill="0.35"/>
 <via x="52.832" y="11.1506" extent="1-16" drill="0.35"/>
 <via x="55.626" y="11.176" extent="1-16" drill="0.35"/>
-<via x="57.2516" y="11.0998" extent="1-16" drill="0.35"/>
 <via x="7.3914" y="12.9032" extent="1-16" drill="0.35"/>
-<via x="9.4234" y="11.7348" extent="1-16" drill="0.35"/>
-<via x="9.1694" y="10.3632" extent="1-16" drill="0.35"/>
 <via x="9.7028" y="52.1462" extent="1-16" drill="0.35"/>
 <via x="9.8044" y="50.7238" extent="1-16" drill="0.35"/>
-<via x="8.0518" y="51.4858" extent="1-16" drill="0.35"/>
 <via x="7.62" y="50.3428" extent="1-16" drill="0.35"/>
-<via x="6.9342" y="48.768" extent="1-16" drill="0.35"/>
 <via x="7.1628" y="47.244" extent="1-16" drill="0.35"/>
 <via x="16.8402" y="52.197" extent="1-16" drill="0.35"/>
 <via x="17.018" y="50.8254" extent="1-16" drill="0.35"/>
@@ -8080,13 +8070,9 @@ design rules under a new name.</description>
 <via x="10.414" y="39.751" extent="1-16" drill="0.35"/>
 <via x="37.4904" y="47.9044" extent="1-16" drill="0.35"/>
 <via x="37.8714" y="49.7078" extent="1-16" drill="0.35"/>
-<via x="38.1508" y="51.816" extent="1-16" drill="0.35"/>
 <via x="39.9034" y="50.6222" extent="1-16" drill="0.35"/>
 <via x="40.4622" y="48.9966" extent="1-16" drill="0.35"/>
 <via x="42.5704" y="47.4472" extent="1-16" drill="0.35"/>
-<via x="38.9636" y="48.1076" extent="1-16" drill="0.35"/>
-<via x="39.0144" y="49.5554" extent="1-16" drill="0.35"/>
-<via x="42.4688" y="48.8696" extent="1-16" drill="0.35"/>
 <via x="24.5364" y="44.6786" extent="1-16" drill="0.35"/>
 <via x="25.2222" y="43.9674" extent="1-16" drill="0.35"/>
 <via x="25.781" y="43.5864" extent="1-16" drill="0.35"/>
@@ -8134,21 +8120,17 @@ design rules under a new name.</description>
 <via x="55.6514" y="28.448" extent="1-16" drill="0.35"/>
 <via x="55.626" y="27.4066" extent="1-16" drill="0.35"/>
 <via x="56.7182" y="28.2702" extent="1-16" drill="0.35"/>
-<via x="56.769" y="27.3558" extent="1-16" drill="0.35"/>
 <via x="55.6768" y="25.908" extent="1-16" drill="0.35"/>
 <via x="55.6006" y="25.019" extent="1-16" drill="0.35"/>
 <via x="56.7436" y="25.8826" extent="1-16" drill="0.35"/>
-<via x="56.769" y="24.9174" extent="1-16" drill="0.35"/>
 <via x="55.6514" y="23.4696" extent="1-16" drill="0.35"/>
 <via x="55.6006" y="22.3774" extent="1-16" drill="0.35"/>
 <via x="56.7944" y="23.495" extent="1-16" drill="0.35"/>
-<via x="56.8706" y="22.4536" extent="1-16" drill="0.35"/>
 <via x="43.3832" y="29.4894" extent="1-16" drill="0.35"/>
 <via x="43.4086" y="28.5496" extent="1-16" drill="0.35"/>
 <via x="43.4594" y="30.2768" extent="1-16" drill="0.35"/>
 <via x="7.0866" y="32.7406" extent="1-16" drill="0.35"/>
 <via x="6.9596" y="30.3276" extent="1-16" drill="0.35"/>
-<via x="7.0358" y="27.5082" extent="1-16" drill="0.35"/>
 <via x="7.0358" y="25.8318" extent="1-16" drill="0.35"/>
 <via x="7.2898" y="39.116" extent="1-16" drill="0.35"/>
 <via x="6.985" y="40.9194" extent="1-16" drill="0.35"/>
@@ -8160,8 +8142,6 @@ design rules under a new name.</description>
 <via x="40.3098" y="6.35" extent="1-16" drill="0.35"/>
 <via x="26.6446" y="6.2992" extent="1-16" drill="0.35"/>
 <via x="7.0104" y="23.2918" extent="1-16" drill="0.35"/>
-<via x="8.0772" y="22.4282" extent="1-16" drill="0.35"/>
-<via x="7.9502" y="19.6088" extent="1-16" drill="0.35"/>
 <via x="8.0772" y="20.4978" extent="1-16" drill="0.35"/>
 <via x="9.4742" y="15.3416" extent="1-16" drill="0.35"/>
 <via x="10.6172" y="32.1564" extent="1-16" drill="0.35"/>
@@ -8186,7 +8166,6 @@ design rules under a new name.</description>
 <via x="47.9044" y="16.1798" extent="1-16" drill="0.35"/>
 <via x="48.9204" y="16.637" extent="1-16" drill="0.35"/>
 <via x="52.6796" y="15.621" extent="1-16" drill="0.35"/>
-<via x="52.6796" y="14.7828" extent="1-16" drill="0.35"/>
 <via x="19.1262" y="6.4516" extent="1-16" drill="0.35"/>
 <via x="10.16" y="6.731" extent="1-16" drill="0.35"/>
 <via x="48.133" y="6.731" extent="1-16" drill="0.35"/>
