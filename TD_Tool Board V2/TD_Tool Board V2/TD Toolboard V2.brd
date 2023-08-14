@@ -13855,6 +13855,16 @@ design rules under a new name.</description>
 <wire x1="15.2429875" y1="12.9032" x2="13.2617875" y2="14.8844" width="0.6096" layer="1"/>
 <wire x1="49.0982" y1="28.321" x2="49.43715" y2="28.321" width="0.3048" layer="16"/>
 <wire x1="49.43715" y1="28.321" x2="49.911" y2="28.79485" width="0.3048" layer="16"/>
+<polygon width="0.0762" layer="16">
+<vertex x="27.5082" y="12.1666"/>
+<vertex x="27.5082" y="18.5166"/>
+<vertex x="27.686" y="18.6944"/>
+<vertex x="30.6578" y="21.6662"/>
+<vertex x="32.0548" y="21.6662"/>
+<vertex x="32.4358" y="21.2852"/>
+<vertex x="32.4358" y="11.8618"/>
+<vertex x="27.5082" y="11.8618"/>
+</polygon>
 </signal>
 <signal name="VREGO">
 <contactref element="P1" pad="2"/>
