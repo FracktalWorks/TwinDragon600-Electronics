@@ -163,13 +163,16 @@ Similar to the BTT Manta M8P, the Support communication via CAN or USB. The term
 
 ## Wiring and Connections
 
-![Twin Dragon 600 with M8P Wiring](https://github.com/FracktalWorks/TwinDragon600-Electronics/assets/80109965/5aaddf6d-8737-4d11-959b-e3e86720b1d5)
+![image](https://github.com/FracktalWorks/TwinDragon600-Electronics/assets/80109965/4e393370-5623-4ea7-b8f8-e96b65f04eca)
+
 
 The overall connections of all the Electrical and Electronic components are present in the image above
 
 ### BTT Manta M8P Pin connections
 
-![image](https://github.com/FracktalWorks/TwinDragon600-Electronics/assets/80109965/6e655c8d-638d-4602-86c7-b775c30add44)
+![image](https://github.com/FracktalWorks/TwinDragon600-Electronics/assets/80109965/d4a83044-dfb4-4acc-8a03-833ed3f1c039)
+
+
 
 
 
