@@ -3849,6 +3849,7 @@
 <text x="40.0304" y="14.5542" size="0.8128" layer="26" font="vector" rot="MR0">+</text>
 <text x="45.1866" y="14.605" size="0.8128" layer="26" font="vector" rot="MR0">-</text>
 <text x="8.1026" y="19.8882" size="0.6096" layer="26" font="vector" ratio="15" rot="MR270">POWER</text>
+<circle x="41.0972" y="17.5768" radius="0.314178125" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
