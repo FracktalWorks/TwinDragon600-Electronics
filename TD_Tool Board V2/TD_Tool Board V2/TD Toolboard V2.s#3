@@ -11192,7 +11192,7 @@ Source: www.kingbright.com</description>
 <attribute name="LCSCPN#" value="C25543"/>
 </part>
 <part name="SUPPLY25" library="Power_Symbols" deviceset="GND-BAR" device="" value="GND"/>
-<part name="U1" library="2023-03-26_17-59-48_Library" deviceset="RP2040" device="IC57_RP2040-L">
+<part name="U1" library="2023-03-26_17-59-48_Library" deviceset="RP2040" device="IC57_RP2040-L" value="RP2040">
 <attribute name="LCSCPN#" value="C2040"/>
 </part>
 <part name="R1" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="R" device="CHIP-0402(1005-METRIC)" package3d_urn="urn:adsk.eagle:package:16378568/2" technology="_" value="200R">
@@ -11261,7 +11261,7 @@ Source: www.kingbright.com</description>
 <attribute name="LCSCPN#" value="C25120"/>
 </part>
 <part name="SUPPLY6" library="Power_Symbols" deviceset="GND-BAR" device="" value="GND"/>
-<part name="U2" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="W25Q128JVSIQ" device="SOIC_128JVSIQ_WIN-L">
+<part name="U2" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="W25Q128JVSIQ" device="SOIC_128JVSIQ_WIN-L" value="W25Q128">
 <attribute name="LCSCPN#" value="C97521"/>
 </part>
 <part name="SUPPLY35" library="Power_Symbols" deviceset="GND-BAR" device="" value="GND"/>
@@ -11291,7 +11291,7 @@ Source: www.kingbright.com</description>
 <part name="RST" library="Switch" deviceset="B3U-X000" device="1000P(M)-B" package3d_urn="urn:adsk.eagle:package:39050787/1" technology="B3U-1000P(M)-B" value="B3U-1000P(M)-B">
 <attribute name="LCSCPN#" value="C231329"/>
 </part>
-<part name="U5" library="Sensor" deviceset="ADXL345" device="" package3d_urn="urn:adsk.eagle:package:24934402/2" technology="BCCZ-RL">
+<part name="U5" library="Sensor" deviceset="ADXL345" device="" package3d_urn="urn:adsk.eagle:package:24934402/2" technology="BCCZ-RL" value="ADXL345">
 <attribute name="LCSCPN#" value="C9667"/>
 </part>
 <part name="SUPPLY47" library="Power_Symbols" deviceset="GND-BAR" device="" value="GND"/>
@@ -11389,7 +11389,7 @@ Source: www.kingbright.com</description>
 <part name="M1" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="NMOSFET_WSD3066DN33" device="">
 <attribute name="LCSCPN#" value="C148386"/>
 </part>
-<part name="U6" library="2023-03-28_15-41-49_Library" deviceset="SN74LVC1G17DBVR" device="DBV5-L">
+<part name="U6" library="2023-03-28_15-41-49_Library" deviceset="SN74LVC1G17DBVR" device="DBV5-L" value="SN74L">
 <attribute name="LCSCPN#" value="C7836"/>
 </part>
 <part name="SUPPLY63" library="Power_Symbols" deviceset="+5V" device="" value="+5V"/>
@@ -11476,7 +11476,7 @@ Source: www.kingbright.com</description>
 <attribute name="LCSCPN#" value="C425373"/>
 </part>
 <part name="SUPPLY97" library="Power_Symbols" deviceset="GND-BAR" device="" value="GND"/>
-<part name="J3" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="430450400" device="CON_430450400_MOL"/>
+<part name="J3" library="Fracktal Misc Lib" library_urn="urn:adsk.wipprod:fs.file:vf.Pfq9Q3azRLuASzDebw0K2A" deviceset="430450400" device="CON_430450400_MOL" value="JST-MICROFIT"/>
 <part name="GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
 <part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="TH0" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3X4" package3d_urn="urn:adsk.eagle:package:38287/1"/>
@@ -11556,7 +11556,7 @@ Source: www.kingbright.com</description>
 <part name="X7" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD">
 <attribute name="FAN2" value=""/>
 </part>
-<part name="X8" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD">
+<part name="X8" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD" value="JST-XH">
 <attribute name="FAN3" value=""/>
 </part>
 </parts>
