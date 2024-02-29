@@ -228,6 +228,38 @@ The overall connections of all the Electrical and Electronic components are pres
 ![Twin Dragon 600 with M8P V2 0 Wiring](https://github.com/FracktalWorks/TwinDragon600-Electronics/assets/80109965/595c8816-327c-440a-9572-f5ab909eb793)
 
 
+## To setup Raspeberry Pi camera Rev 1.3, interfaced with RPi CM4 and BTT Manta M8P/M5P
+
+In order to interface the Pi camera Rev 1.3 with the RPi CM4 and BTT Manta M8P/M5P, flip the board and check for a CSI1 camera slot, which should look like the image below
+
+![image](https://github.com/FracktalWorks/TwinDragon600-Electronics/assets/80109965/de2eb324-dc58-4c48-af00-7386afde8c35)
+
+Instructions to attach the camera in BTT Manta M8P V2.0
+
+![image](https://github.com/FracktalWorks/TwinDragon600-Electronics/assets/80109965/1bc509c2-2984-46af-a074-268701a05b0c)
+
+
+Instructions to attach the camera in BTT Manta M5P
+
+1. Now, boot up the board (including CM4), SSH into the CM4 and open the terminal
+2. We will have to download a bin file into the boot folder of the CM4, below is the command to enter into the terminal.
+
+`sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-cam1.bin -O /boot/dt-blob.bin`
+
+If the above command does not work, try the following command:
+
+`sudo wget https://datasheets.raspberrypi.com/cmio/dt-blob-cam1.bin -O /boot/firmware/dt-blob.bin`
+
+3. Now, in the terminal, enter `sudo raspi-config` and select the option '3 Interface Options    Configure connections to peripherals'. Now select the first option 'P1 Camera      Enable/disable connection to the Raspberry Pi Camera'. A pop-up would appear where it asks to enable the camera. Make sure to select <yes> and exit the portal.
+
+4. Now, in the terminal, type in `sudo nano /boot/config.txt` and make sure the settings are enabled
+
+   `start_x=1
+   gpu_mem=128`
+
+   Note: make sure `#camera_auto_select=1` is commented out, or else it will not work.
+
+For more clarifications, check out 'Julia TouchUI documentation' for more settings on Pi-camera
 
 
 
